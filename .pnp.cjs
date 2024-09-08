@@ -27,6 +27,8 @@ const RAW_RUNTIME_STATE =
       [null, {\
         "packageLocation": "./",\
         "packageDependencies": [\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/lit-node-client", "npm:6.4.10"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:df72f85826e28ff3fea4b4837375b6bc541283fc36a56cda0df17931b87a48778597d70efe42906abeba10ea58c23349851bde491dad2c8d80b53afd1ddb6918#npm:14.2.8"],\
           ["next", "virtual:df72f85826e28ff3fea4b4837375b6bc541283fc36a56cda0df17931b87a48778597d70efe42906abeba10ea58c23349851bde491dad2c8d80b53afd1ddb6918#npm:14.2.8"],\
@@ -43,6 +45,66 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@alloc-quick-lru-npm-5.2.0-eb83517088-10c0.zip/node_modules/@alloc/quick-lru/",\
         "packageDependencies": [\
           ["@alloc/quick-lru", "npm:5.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@cosmjs/amino", [\
+      ["npm:0.30.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@cosmjs-amino-npm-0.30.1-fa65a9d84a-10c0.zip/node_modules/@cosmjs/amino/",\
+        "packageDependencies": [\
+          ["@cosmjs/amino", "npm:0.30.1"],\
+          ["@cosmjs/crypto", "npm:0.30.1"],\
+          ["@cosmjs/encoding", "npm:0.30.1"],\
+          ["@cosmjs/math", "npm:0.30.1"],\
+          ["@cosmjs/utils", "npm:0.30.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@cosmjs/crypto", [\
+      ["npm:0.30.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@cosmjs-crypto-npm-0.30.1-00df919891-10c0.zip/node_modules/@cosmjs/crypto/",\
+        "packageDependencies": [\
+          ["@cosmjs/crypto", "npm:0.30.1"],\
+          ["@cosmjs/encoding", "npm:0.30.1"],\
+          ["@cosmjs/math", "npm:0.30.1"],\
+          ["@cosmjs/utils", "npm:0.30.1"],\
+          ["@noble/hashes", "npm:1.5.0"],\
+          ["bn.js", "npm:5.2.1"],\
+          ["elliptic", "npm:6.5.7"],\
+          ["libsodium-wrappers", "npm:0.7.15"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@cosmjs/encoding", [\
+      ["npm:0.30.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@cosmjs-encoding-npm-0.30.1-f979f5afa7-10c0.zip/node_modules/@cosmjs/encoding/",\
+        "packageDependencies": [\
+          ["@cosmjs/encoding", "npm:0.30.1"],\
+          ["base64-js", "npm:1.5.1"],\
+          ["bech32", "npm:1.1.4"],\
+          ["readonly-date", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@cosmjs/math", [\
+      ["npm:0.30.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@cosmjs-math-npm-0.30.1-bfef2aeb61-10c0.zip/node_modules/@cosmjs/math/",\
+        "packageDependencies": [\
+          ["@cosmjs/math", "npm:0.30.1"],\
+          ["bn.js", "npm:5.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@cosmjs/utils", [\
+      ["npm:0.30.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@cosmjs-utils-npm-0.30.1-c5856c2196-10c0.zip/node_modules/@cosmjs/utils/",\
+        "packageDependencies": [\
+          ["@cosmjs/utils", "npm:0.30.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -85,7 +147,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["@eslint/eslintrc", "npm:2.1.4"],\
           ["ajv", "npm:6.12.6"],\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"],\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"],\
           ["espree", "npm:9.6.1"],\
           ["globals", "npm:13.24.0"],\
           ["ignore", "npm:5.3.2"],\
@@ -106,13 +168,446 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@ethersproject/abi", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-abi-npm-5.7.0-fdd80304df-10c0.zip/node_modules/@ethersproject/abi/",\
+        "packageDependencies": [\
+          ["@ethersproject/abi", "npm:5.7.0"],\
+          ["@ethersproject/address", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/constants", "npm:5.7.0"],\
+          ["@ethersproject/hash", "npm:5.7.0"],\
+          ["@ethersproject/keccak256", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/strings", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/abstract-provider", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-abstract-provider-npm-5.7.0-f94be4e0b0-10c0.zip/node_modules/@ethersproject/abstract-provider/",\
+        "packageDependencies": [\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/networks", "npm:5.7.1"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/transactions", "npm:5.7.0"],\
+          ["@ethersproject/web", "npm:5.7.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/abstract-signer", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-abstract-signer-npm-5.7.0-f61d0a970e-10c0.zip/node_modules/@ethersproject/abstract-signer/",\
+        "packageDependencies": [\
+          ["@ethersproject/abstract-signer", "npm:5.7.0"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/address", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-address-npm-5.7.0-d27f4f2b80-10c0.zip/node_modules/@ethersproject/address/",\
+        "packageDependencies": [\
+          ["@ethersproject/address", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/keccak256", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/rlp", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/base64", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-base64-npm-5.7.0-ddf99521e0-10c0.zip/node_modules/@ethersproject/base64/",\
+        "packageDependencies": [\
+          ["@ethersproject/base64", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/basex", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-basex-npm-5.7.0-78ae312582-10c0.zip/node_modules/@ethersproject/basex/",\
+        "packageDependencies": [\
+          ["@ethersproject/basex", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/bignumber", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-bignumber-npm-5.7.0-cd761880ac-10c0.zip/node_modules/@ethersproject/bignumber/",\
+        "packageDependencies": [\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["bn.js", "npm:5.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/bytes", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-bytes-npm-5.7.0-4454fe4cb0-10c0.zip/node_modules/@ethersproject/bytes/",\
+        "packageDependencies": [\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/constants", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-constants-npm-5.7.0-24294ccfde-10c0.zip/node_modules/@ethersproject/constants/",\
+        "packageDependencies": [\
+          ["@ethersproject/constants", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/contracts", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-contracts-npm-5.7.0-4d3730222f-10c0.zip/node_modules/@ethersproject/contracts/",\
+        "packageDependencies": [\
+          ["@ethersproject/contracts", "npm:5.7.0"],\
+          ["@ethersproject/abi", "npm:5.7.0"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/abstract-signer", "npm:5.7.0"],\
+          ["@ethersproject/address", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/constants", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/transactions", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/hash", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-hash-npm-5.7.0-7c00366b4e-10c0.zip/node_modules/@ethersproject/hash/",\
+        "packageDependencies": [\
+          ["@ethersproject/hash", "npm:5.7.0"],\
+          ["@ethersproject/abstract-signer", "npm:5.7.0"],\
+          ["@ethersproject/address", "npm:5.7.0"],\
+          ["@ethersproject/base64", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/keccak256", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/strings", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/hdnode", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-hdnode-npm-5.7.0-c6d5c6aa1c-10c0.zip/node_modules/@ethersproject/hdnode/",\
+        "packageDependencies": [\
+          ["@ethersproject/hdnode", "npm:5.7.0"],\
+          ["@ethersproject/abstract-signer", "npm:5.7.0"],\
+          ["@ethersproject/basex", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/pbkdf2", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/sha2", "npm:5.7.0"],\
+          ["@ethersproject/signing-key", "npm:5.7.0"],\
+          ["@ethersproject/strings", "npm:5.7.0"],\
+          ["@ethersproject/transactions", "npm:5.7.0"],\
+          ["@ethersproject/wordlists", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/json-wallets", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-json-wallets-npm-5.7.0-f73c4734e5-10c0.zip/node_modules/@ethersproject/json-wallets/",\
+        "packageDependencies": [\
+          ["@ethersproject/json-wallets", "npm:5.7.0"],\
+          ["@ethersproject/abstract-signer", "npm:5.7.0"],\
+          ["@ethersproject/address", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/hdnode", "npm:5.7.0"],\
+          ["@ethersproject/keccak256", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/pbkdf2", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/random", "npm:5.7.0"],\
+          ["@ethersproject/strings", "npm:5.7.0"],\
+          ["@ethersproject/transactions", "npm:5.7.0"],\
+          ["aes-js", "npm:3.0.0"],\
+          ["scrypt-js", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/keccak256", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-keccak256-npm-5.7.0-be838547c4-10c0.zip/node_modules/@ethersproject/keccak256/",\
+        "packageDependencies": [\
+          ["@ethersproject/keccak256", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["js-sha3", "npm:0.8.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/logger", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-logger-npm-5.7.0-63fe9c3d29-10c0.zip/node_modules/@ethersproject/logger/",\
+        "packageDependencies": [\
+          ["@ethersproject/logger", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/networks", [\
+      ["npm:5.7.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-networks-npm-5.7.1-eb06956095-10c0.zip/node_modules/@ethersproject/networks/",\
+        "packageDependencies": [\
+          ["@ethersproject/networks", "npm:5.7.1"],\
+          ["@ethersproject/logger", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/pbkdf2", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-pbkdf2-npm-5.7.0-5b8e51d4b9-10c0.zip/node_modules/@ethersproject/pbkdf2/",\
+        "packageDependencies": [\
+          ["@ethersproject/pbkdf2", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/sha2", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/properties", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-properties-npm-5.7.0-00a99c747b-10c0.zip/node_modules/@ethersproject/properties/",\
+        "packageDependencies": [\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/providers", [\
+      ["npm:5.7.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-providers-npm-5.7.2-88293ff29f-10c0.zip/node_modules/@ethersproject/providers/",\
+        "packageDependencies": [\
+          ["@ethersproject/providers", "npm:5.7.2"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/abstract-signer", "npm:5.7.0"],\
+          ["@ethersproject/address", "npm:5.7.0"],\
+          ["@ethersproject/base64", "npm:5.7.0"],\
+          ["@ethersproject/basex", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/constants", "npm:5.7.0"],\
+          ["@ethersproject/hash", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/networks", "npm:5.7.1"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/random", "npm:5.7.0"],\
+          ["@ethersproject/rlp", "npm:5.7.0"],\
+          ["@ethersproject/sha2", "npm:5.7.0"],\
+          ["@ethersproject/strings", "npm:5.7.0"],\
+          ["@ethersproject/transactions", "npm:5.7.0"],\
+          ["@ethersproject/web", "npm:5.7.1"],\
+          ["bech32", "npm:1.1.4"],\
+          ["ws", "virtual:88293ff29fa54efecc98d655f7a7551b282025b3465bc23ca5bb7a89a31c17930a7319e98225cf138bf4e6ccead5b30ae3c800738697b87af3441226d65f7ee3#npm:7.4.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/random", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-random-npm-5.7.0-a0466f53f9-10c0.zip/node_modules/@ethersproject/random/",\
+        "packageDependencies": [\
+          ["@ethersproject/random", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/rlp", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-rlp-npm-5.7.0-a6c9e763ff-10c0.zip/node_modules/@ethersproject/rlp/",\
+        "packageDependencies": [\
+          ["@ethersproject/rlp", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/sha2", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-sha2-npm-5.7.0-569c8bdff0-10c0.zip/node_modules/@ethersproject/sha2/",\
+        "packageDependencies": [\
+          ["@ethersproject/sha2", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["hash.js", "npm:1.1.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/signing-key", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-signing-key-npm-5.7.0-51cfa7708e-10c0.zip/node_modules/@ethersproject/signing-key/",\
+        "packageDependencies": [\
+          ["@ethersproject/signing-key", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["bn.js", "npm:5.2.1"],\
+          ["elliptic", "npm:6.5.4"],\
+          ["hash.js", "npm:1.1.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/solidity", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-solidity-npm-5.7.0-75baa4e133-10c0.zip/node_modules/@ethersproject/solidity/",\
+        "packageDependencies": [\
+          ["@ethersproject/solidity", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/keccak256", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/sha2", "npm:5.7.0"],\
+          ["@ethersproject/strings", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/strings", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-strings-npm-5.7.0-efcb671e56-10c0.zip/node_modules/@ethersproject/strings/",\
+        "packageDependencies": [\
+          ["@ethersproject/strings", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/constants", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/transactions", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-transactions-npm-5.7.0-9a32c9e61a-10c0.zip/node_modules/@ethersproject/transactions/",\
+        "packageDependencies": [\
+          ["@ethersproject/transactions", "npm:5.7.0"],\
+          ["@ethersproject/address", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/constants", "npm:5.7.0"],\
+          ["@ethersproject/keccak256", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/rlp", "npm:5.7.0"],\
+          ["@ethersproject/signing-key", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/units", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-units-npm-5.7.0-1c1f5ec7ca-10c0.zip/node_modules/@ethersproject/units/",\
+        "packageDependencies": [\
+          ["@ethersproject/units", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/constants", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/wallet", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-wallet-npm-5.7.0-f553c726b7-10c0.zip/node_modules/@ethersproject/wallet/",\
+        "packageDependencies": [\
+          ["@ethersproject/wallet", "npm:5.7.0"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/abstract-signer", "npm:5.7.0"],\
+          ["@ethersproject/address", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/hash", "npm:5.7.0"],\
+          ["@ethersproject/hdnode", "npm:5.7.0"],\
+          ["@ethersproject/json-wallets", "npm:5.7.0"],\
+          ["@ethersproject/keccak256", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/random", "npm:5.7.0"],\
+          ["@ethersproject/signing-key", "npm:5.7.0"],\
+          ["@ethersproject/transactions", "npm:5.7.0"],\
+          ["@ethersproject/wordlists", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/web", [\
+      ["npm:5.7.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-web-npm-5.7.1-dabb653410-10c0.zip/node_modules/@ethersproject/web/",\
+        "packageDependencies": [\
+          ["@ethersproject/web", "npm:5.7.1"],\
+          ["@ethersproject/base64", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/strings", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@ethersproject/wordlists", [\
+      ["npm:5.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@ethersproject-wordlists-npm-5.7.0-00d314bfdb-10c0.zip/node_modules/@ethersproject/wordlists/",\
+        "packageDependencies": [\
+          ["@ethersproject/wordlists", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/hash", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/strings", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@humanwhocodes/config-array", [\
       ["npm:0.11.14", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@humanwhocodes-config-array-npm-0.11.14-94a02fcc87-10c0.zip/node_modules/@humanwhocodes/config-array/",\
         "packageDependencies": [\
           ["@humanwhocodes/config-array", "npm:0.11.14"],\
           ["@humanwhocodes/object-schema", "npm:2.0.3"],\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"],\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"],\
           ["minimatch", "npm:3.1.2"]\
         ],\
         "linkType": "HARD"\
@@ -206,6 +701,649 @@ const RAW_RUNTIME_STATE =
           ["@jridgewell/trace-mapping", "npm:0.3.25"],\
           ["@jridgewell/resolve-uri", "npm:3.1.2"],\
           ["@jridgewell/sourcemap-codec", "npm:1.5.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-labs/ssr-dom-shim", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-labs-ssr-dom-shim-npm-1.2.1-d14ce3e3e5-10c0.zip/node_modules/@lit-labs/ssr-dom-shim/",\
+        "packageDependencies": [\
+          ["@lit-labs/ssr-dom-shim", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/access-control-conditions", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-access-control-conditions-npm-6.4.10-9d2d2f31c4-10c0.zip/node_modules/@lit-protocol/access-control-conditions/",\
+        "packageDependencies": [\
+          ["@lit-protocol/access-control-conditions", "npm:6.4.10"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/contracts", "npm:5.7.0"],\
+          ["@ethersproject/providers", "npm:5.7.2"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/logger", "npm:6.4.10"],\
+          ["@lit-protocol/misc", "npm:6.4.10"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["@lit-protocol/uint8arrays", "npm:6.4.10"],\
+          ["ajv", "npm:8.17.1"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jszip", "npm:3.10.1"],\
+          ["punycode", "npm:2.3.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["tslib", "npm:1.14.1"],\
+          ["uint8arrays", "npm:4.0.10"],\
+          ["util", "npm:0.12.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/accs-schemas", [\
+      ["npm:0.0.11", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-accs-schemas-npm-0.0.11-fc698c482a-10c0.zip/node_modules/@lit-protocol/accs-schemas/",\
+        "packageDependencies": [\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["ajv", "npm:8.17.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/auth-browser", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-auth-browser-npm-6.4.10-2cf334e51f-10c0.zip/node_modules/@lit-protocol/auth-browser/",\
+        "packageDependencies": [\
+          ["@lit-protocol/auth-browser", "npm:6.4.10"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/contracts", "npm:5.7.0"],\
+          ["@ethersproject/providers", "npm:5.7.2"],\
+          ["@ethersproject/strings", "npm:5.7.0"],\
+          ["@ethersproject/wallet", "npm:5.7.0"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/logger", "npm:6.4.10"],\
+          ["@lit-protocol/misc", "npm:6.4.10"],\
+          ["@lit-protocol/misc-browser", "npm:6.4.10"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["@lit-protocol/uint8arrays", "npm:6.4.10"],\
+          ["ajv", "npm:8.17.1"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jszip", "npm:3.10.1"],\
+          ["punycode", "npm:2.3.1"],\
+          ["tslib", "npm:1.14.1"],\
+          ["uint8arrays", "npm:4.0.10"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/auth-helpers", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-auth-helpers-npm-6.4.10-7a870eda4d-10c0.zip/node_modules/@lit-protocol/auth-helpers/",\
+        "packageDependencies": [\
+          ["@lit-protocol/auth-helpers", "npm:6.4.10"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/contracts", "npm:5.7.0"],\
+          ["@ethersproject/providers", "npm:5.7.2"],\
+          ["@lit-protocol/access-control-conditions", "npm:6.4.10"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/logger", "npm:6.4.10"],\
+          ["@lit-protocol/misc", "npm:6.4.10"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["@lit-protocol/uint8arrays", "npm:6.4.10"],\
+          ["ajv", "npm:8.17.1"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jszip", "npm:3.10.1"],\
+          ["punycode", "npm:2.3.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["siwe-recap", "virtual:7a870eda4df884bda0c3a957d95a1c34970db5bade48d566779dd15132677c57ad32ca8f05841477642fe6d00ef10bf577d36871c02d196b0783809a7b304139#npm:0.0.2-alpha.0"],\
+          ["tslib", "npm:2.6.0"],\
+          ["uint8arrays", "npm:4.0.10"],\
+          ["util", "npm:0.12.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/bls-sdk", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-bls-sdk-npm-6.4.10-17b3b9141d-10c0.zip/node_modules/@lit-protocol/bls-sdk/",\
+        "packageDependencies": [\
+          ["@lit-protocol/bls-sdk", "npm:6.4.10"],\
+          ["tslib", "npm:1.14.1"],\
+          ["util", "npm:0.12.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/constants", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-constants-npm-6.4.10-bbda34ba34-10c0.zip/node_modules/@lit-protocol/constants/",\
+        "packageDependencies": [\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jszip", "npm:3.10.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/contracts", [\
+      ["npm:0.0.63", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-contracts-npm-0.0.63-48db71aaca-10c0.zip/node_modules/@lit-protocol/contracts/",\
+        "packageDependencies": [\
+          ["@lit-protocol/contracts", "npm:0.0.63"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63", {\
+        "packageLocation": "./.yarn/__virtual__/@lit-protocol-contracts-virtual-9f8d8e3b8c/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-contracts-npm-0.0.63-48db71aaca-10c0.zip/node_modules/@lit-protocol/contracts/",\
+        "packageDependencies": [\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@types/typescript", null],\
+          ["typescript", null]\
+        ],\
+        "packagePeers": [\
+          "@types/typescript",\
+          "typescript"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/contracts-sdk", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-contracts-sdk-npm-6.4.10-58971fb5e2-10c0.zip/node_modules/@lit-protocol/contracts-sdk/",\
+        "packageDependencies": [\
+          ["@lit-protocol/contracts-sdk", "npm:6.4.10"],\
+          ["@cosmjs/amino", "npm:0.30.1"],\
+          ["@cosmjs/crypto", "npm:0.30.1"],\
+          ["@cosmjs/encoding", "npm:0.30.1"],\
+          ["@ethersproject/abi", "npm:5.7.0"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/contracts", "npm:5.7.0"],\
+          ["@ethersproject/providers", "npm:5.7.2"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/logger", "npm:6.4.10"],\
+          ["@lit-protocol/misc", "npm:6.4.10"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["ajv", "npm:8.17.1"],\
+          ["bitcoinjs-lib", "npm:6.1.6"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jose", "npm:4.15.9"],\
+          ["jszip", "npm:3.10.1"],\
+          ["process", "npm:0.11.10"],\
+          ["punycode", "npm:2.3.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["tslib", "npm:1.14.1"],\
+          ["uint8arrays", "npm:4.0.10"],\
+          ["util", "npm:0.12.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/core", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-core-npm-6.4.10-b745b8d79d-10c0.zip/node_modules/@lit-protocol/core/",\
+        "packageDependencies": [\
+          ["@lit-protocol/core", "npm:6.4.10"],\
+          ["@cosmjs/amino", "npm:0.30.1"],\
+          ["@cosmjs/crypto", "npm:0.30.1"],\
+          ["@cosmjs/encoding", "npm:0.30.1"],\
+          ["@ethersproject/abi", "npm:5.7.0"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/contracts", "npm:5.7.0"],\
+          ["@ethersproject/providers", "npm:5.7.2"],\
+          ["@lit-protocol/access-control-conditions", "npm:6.4.10"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/bls-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/contracts-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/crypto", "npm:6.4.10"],\
+          ["@lit-protocol/ecdsa-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/logger", "npm:6.4.10"],\
+          ["@lit-protocol/misc", "npm:6.4.10"],\
+          ["@lit-protocol/nacl", "npm:6.4.10"],\
+          ["@lit-protocol/sev-snp-utils-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["@lit-protocol/uint8arrays", "npm:6.4.10"],\
+          ["ajv", "npm:8.17.1"],\
+          ["bitcoinjs-lib", "npm:6.1.6"],\
+          ["bs58", "npm:5.0.0"],\
+          ["cross-fetch", "npm:3.1.4"],\
+          ["date-and-time", "npm:2.4.3"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jose", "npm:4.15.9"],\
+          ["jszip", "npm:3.10.1"],\
+          ["multiformats", "npm:9.9.0"],\
+          ["pako", "npm:1.0.11"],\
+          ["process", "npm:0.11.10"],\
+          ["punycode", "npm:2.3.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["tslib", "npm:1.14.1"],\
+          ["uint8arrays", "npm:4.0.10"],\
+          ["util", "npm:0.12.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/crypto", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-crypto-npm-6.4.10-044e179a17-10c0.zip/node_modules/@lit-protocol/crypto/",\
+        "packageDependencies": [\
+          ["@lit-protocol/crypto", "npm:6.4.10"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/contracts", "npm:5.7.0"],\
+          ["@ethersproject/providers", "npm:5.7.2"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/bls-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/ecdsa-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/logger", "npm:6.4.10"],\
+          ["@lit-protocol/misc", "npm:6.4.10"],\
+          ["@lit-protocol/nacl", "npm:6.4.10"],\
+          ["@lit-protocol/sev-snp-utils-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["@lit-protocol/uint8arrays", "npm:6.4.10"],\
+          ["ajv", "npm:8.17.1"],\
+          ["cross-fetch", "npm:3.1.4"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jszip", "npm:3.10.1"],\
+          ["pako", "npm:1.0.11"],\
+          ["punycode", "npm:2.3.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["tslib", "npm:1.14.1"],\
+          ["uint8arrays", "npm:4.0.10"],\
+          ["util", "npm:0.12.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/ecdsa-sdk", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-ecdsa-sdk-npm-6.4.10-e6b8d9b2f3-10c0.zip/node_modules/@lit-protocol/ecdsa-sdk/",\
+        "packageDependencies": [\
+          ["@lit-protocol/ecdsa-sdk", "npm:6.4.10"],\
+          ["tslib", "npm:1.14.1"],\
+          ["util", "npm:0.12.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/encryption", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-encryption-npm-6.4.10-4a43a1396c-10c0.zip/node_modules/@lit-protocol/encryption/",\
+        "packageDependencies": [\
+          ["@lit-protocol/encryption", "npm:6.4.10"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/contracts", "npm:5.7.0"],\
+          ["@ethersproject/providers", "npm:5.7.2"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/bls-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/crypto", "npm:6.4.10"],\
+          ["@lit-protocol/ecdsa-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/logger", "npm:6.4.10"],\
+          ["@lit-protocol/misc", "npm:6.4.10"],\
+          ["@lit-protocol/nacl", "npm:6.4.10"],\
+          ["@lit-protocol/sev-snp-utils-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["@lit-protocol/uint8arrays", "npm:6.4.10"],\
+          ["ajv", "npm:8.17.1"],\
+          ["cross-fetch", "npm:3.1.4"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jszip", "npm:3.10.1"],\
+          ["pako", "npm:1.0.11"],\
+          ["punycode", "npm:2.3.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["tslib", "npm:1.14.1"],\
+          ["uint8arrays", "npm:4.0.10"],\
+          ["util", "npm:0.12.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/lit-node-client", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-lit-node-client-npm-6.4.10-08763061c0-10c0.zip/node_modules/@lit-protocol/lit-node-client/",\
+        "packageDependencies": [\
+          ["@lit-protocol/lit-node-client", "npm:6.4.10"],\
+          ["@cosmjs/amino", "npm:0.30.1"],\
+          ["@cosmjs/crypto", "npm:0.30.1"],\
+          ["@cosmjs/encoding", "npm:0.30.1"],\
+          ["@ethersproject/abi", "npm:5.7.0"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/contracts", "npm:5.7.0"],\
+          ["@ethersproject/providers", "npm:5.7.2"],\
+          ["@ethersproject/strings", "npm:5.7.0"],\
+          ["@ethersproject/transactions", "npm:5.7.0"],\
+          ["@ethersproject/wallet", "npm:5.7.0"],\
+          ["@lit-protocol/access-control-conditions", "npm:6.4.10"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/auth-browser", "npm:6.4.10"],\
+          ["@lit-protocol/auth-helpers", "npm:6.4.10"],\
+          ["@lit-protocol/bls-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/contracts-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/core", "npm:6.4.10"],\
+          ["@lit-protocol/crypto", "npm:6.4.10"],\
+          ["@lit-protocol/ecdsa-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/encryption", "npm:6.4.10"],\
+          ["@lit-protocol/lit-node-client-nodejs", "npm:6.4.10"],\
+          ["@lit-protocol/logger", "npm:6.4.10"],\
+          ["@lit-protocol/misc", "npm:6.4.10"],\
+          ["@lit-protocol/misc-browser", "npm:6.4.10"],\
+          ["@lit-protocol/nacl", "npm:6.4.10"],\
+          ["@lit-protocol/sev-snp-utils-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["@lit-protocol/uint8arrays", "npm:6.4.10"],\
+          ["@walletconnect/ethereum-provider", "virtual:08763061c07cef4c158768fcf4f7c57adad9ce83f7605ce0497c45ec78ec573c3639dd87996545c6410ddcb76367dca5a64b76a409b61dc5d2db15bb6a088d64#npm:2.9.2"],\
+          ["@walletconnect/modal", "npm:2.6.1"],\
+          ["ajv", "npm:8.17.1"],\
+          ["bitcoinjs-lib", "npm:6.1.6"],\
+          ["bs58", "npm:5.0.0"],\
+          ["cross-fetch", "npm:3.1.4"],\
+          ["date-and-time", "npm:2.4.3"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jose", "npm:4.15.9"],\
+          ["jszip", "npm:3.10.1"],\
+          ["multiformats", "npm:9.9.0"],\
+          ["pako", "npm:1.0.11"],\
+          ["process", "npm:0.11.10"],\
+          ["punycode", "npm:2.3.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["siwe-recap", "virtual:7a870eda4df884bda0c3a957d95a1c34970db5bade48d566779dd15132677c57ad32ca8f05841477642fe6d00ef10bf577d36871c02d196b0783809a7b304139#npm:0.0.2-alpha.0"],\
+          ["tweetnacl", "npm:1.0.3"],\
+          ["tweetnacl-util", "npm:0.15.1"],\
+          ["uint8arrays", "npm:4.0.10"],\
+          ["util", "npm:0.12.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/lit-node-client-nodejs", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-lit-node-client-nodejs-npm-6.4.10-5a89713b7c-10c0.zip/node_modules/@lit-protocol/lit-node-client-nodejs/",\
+        "packageDependencies": [\
+          ["@lit-protocol/lit-node-client-nodejs", "npm:6.4.10"],\
+          ["@cosmjs/amino", "npm:0.30.1"],\
+          ["@cosmjs/crypto", "npm:0.30.1"],\
+          ["@cosmjs/encoding", "npm:0.30.1"],\
+          ["@ethersproject/abi", "npm:5.7.0"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/contracts", "npm:5.7.0"],\
+          ["@ethersproject/providers", "npm:5.7.2"],\
+          ["@ethersproject/transactions", "npm:5.7.0"],\
+          ["@lit-protocol/access-control-conditions", "npm:6.4.10"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/auth-helpers", "npm:6.4.10"],\
+          ["@lit-protocol/bls-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/contracts-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/core", "npm:6.4.10"],\
+          ["@lit-protocol/crypto", "npm:6.4.10"],\
+          ["@lit-protocol/ecdsa-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/encryption", "npm:6.4.10"],\
+          ["@lit-protocol/logger", "npm:6.4.10"],\
+          ["@lit-protocol/misc", "npm:6.4.10"],\
+          ["@lit-protocol/misc-browser", "npm:6.4.10"],\
+          ["@lit-protocol/nacl", "npm:6.4.10"],\
+          ["@lit-protocol/sev-snp-utils-sdk", "npm:6.4.10"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["@lit-protocol/uint8arrays", "npm:6.4.10"],\
+          ["ajv", "npm:8.17.1"],\
+          ["bitcoinjs-lib", "npm:6.1.6"],\
+          ["bs58", "npm:5.0.0"],\
+          ["cross-fetch", "npm:3.1.4"],\
+          ["date-and-time", "npm:2.4.3"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jose", "npm:4.15.9"],\
+          ["jszip", "npm:3.10.1"],\
+          ["multiformats", "npm:9.9.0"],\
+          ["pako", "npm:1.0.11"],\
+          ["process", "npm:0.11.10"],\
+          ["punycode", "npm:2.3.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["siwe-recap", "virtual:7a870eda4df884bda0c3a957d95a1c34970db5bade48d566779dd15132677c57ad32ca8f05841477642fe6d00ef10bf577d36871c02d196b0783809a7b304139#npm:0.0.2-alpha.0"],\
+          ["tslib", "npm:2.7.0"],\
+          ["uint8arrays", "npm:4.0.10"],\
+          ["util", "npm:0.12.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/logger", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-logger-npm-6.4.10-715627da51-10c0.zip/node_modules/@lit-protocol/logger/",\
+        "packageDependencies": [\
+          ["@lit-protocol/logger", "npm:6.4.10"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jszip", "npm:3.10.1"],\
+          ["punycode", "npm:2.3.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["tslib", "npm:1.14.1"],\
+          ["uint8arrays", "npm:4.0.10"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/misc", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-misc-npm-6.4.10-90ad479e69-10c0.zip/node_modules/@lit-protocol/misc/",\
+        "packageDependencies": [\
+          ["@lit-protocol/misc", "npm:6.4.10"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/contracts", "npm:5.7.0"],\
+          ["@ethersproject/providers", "npm:5.7.2"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/logger", "npm:6.4.10"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["ajv", "npm:8.17.1"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jszip", "npm:3.10.1"],\
+          ["punycode", "npm:2.3.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["tslib", "npm:1.14.1"],\
+          ["uint8arrays", "npm:4.0.10"],\
+          ["util", "npm:0.12.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/misc-browser", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-misc-browser-npm-6.4.10-a53dcd2071-10c0.zip/node_modules/@lit-protocol/misc-browser/",\
+        "packageDependencies": [\
+          ["@lit-protocol/misc-browser", "npm:6.4.10"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["@lit-protocol/uint8arrays", "npm:6.4.10"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jszip", "npm:3.10.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/nacl", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-nacl-npm-6.4.10-49db77603d-10c0.zip/node_modules/@lit-protocol/nacl/",\
+        "packageDependencies": [\
+          ["@lit-protocol/nacl", "npm:6.4.10"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/sev-snp-utils-sdk", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-sev-snp-utils-sdk-npm-6.4.10-94a08c3c30-10c0.zip/node_modules/@lit-protocol/sev-snp-utils-sdk/",\
+        "packageDependencies": [\
+          ["@lit-protocol/sev-snp-utils-sdk", "npm:6.4.10"],\
+          ["cross-fetch", "npm:3.1.4"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/types", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-types-npm-6.4.10-13ddd98896-10c0.zip/node_modules/@lit-protocol/types/",\
+        "packageDependencies": [\
+          ["@lit-protocol/types", "npm:6.4.10"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jszip", "npm:3.10.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit-protocol/uint8arrays", [\
+      ["npm:6.4.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-protocol-uint8arrays-npm-6.4.10-f22b95f031-10c0.zip/node_modules/@lit-protocol/uint8arrays/",\
+        "packageDependencies": [\
+          ["@lit-protocol/uint8arrays", "npm:6.4.10"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@lit-protocol/accs-schemas", "npm:0.0.11"],\
+          ["@lit-protocol/contracts", "virtual:bbda34ba34ee4af6b69137be7f6c4f47198c7fce99aa144a18b41d1ba2c916f3dfd13d57f86d0bcd3ea717cc324eeafb7d174ed740b7dba1f0db4fc0cd7d638e#npm:0.0.63"],\
+          ["ethers", "npm:5.7.2"],\
+          ["jszip", "npm:3.10.1"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@lit/reactive-element", [\
+      ["npm:1.6.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@lit-reactive-element-npm-1.6.3-4828441e51-10c0.zip/node_modules/@lit/reactive-element/",\
+        "packageDependencies": [\
+          ["@lit/reactive-element", "npm:1.6.3"],\
+          ["@lit-labs/ssr-dom-shim", "npm:1.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@motionone/animation", [\
+      ["npm:10.18.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@motionone-animation-npm-10.18.0-2180f85661-10c0.zip/node_modules/@motionone/animation/",\
+        "packageDependencies": [\
+          ["@motionone/animation", "npm:10.18.0"],\
+          ["@motionone/easing", "npm:10.18.0"],\
+          ["@motionone/types", "npm:10.17.1"],\
+          ["@motionone/utils", "npm:10.18.0"],\
+          ["tslib", "npm:2.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@motionone/dom", [\
+      ["npm:10.18.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@motionone-dom-npm-10.18.0-345f8428a0-10c0.zip/node_modules/@motionone/dom/",\
+        "packageDependencies": [\
+          ["@motionone/dom", "npm:10.18.0"],\
+          ["@motionone/animation", "npm:10.18.0"],\
+          ["@motionone/generators", "npm:10.18.0"],\
+          ["@motionone/types", "npm:10.17.1"],\
+          ["@motionone/utils", "npm:10.18.0"],\
+          ["hey-listen", "npm:1.0.8"],\
+          ["tslib", "npm:2.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@motionone/easing", [\
+      ["npm:10.18.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@motionone-easing-npm-10.18.0-95adbdf9b8-10c0.zip/node_modules/@motionone/easing/",\
+        "packageDependencies": [\
+          ["@motionone/easing", "npm:10.18.0"],\
+          ["@motionone/utils", "npm:10.18.0"],\
+          ["tslib", "npm:2.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@motionone/generators", [\
+      ["npm:10.18.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@motionone-generators-npm-10.18.0-d07445b229-10c0.zip/node_modules/@motionone/generators/",\
+        "packageDependencies": [\
+          ["@motionone/generators", "npm:10.18.0"],\
+          ["@motionone/types", "npm:10.17.1"],\
+          ["@motionone/utils", "npm:10.18.0"],\
+          ["tslib", "npm:2.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@motionone/svelte", [\
+      ["npm:10.16.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@motionone-svelte-npm-10.16.4-f687397c4c-10c0.zip/node_modules/@motionone/svelte/",\
+        "packageDependencies": [\
+          ["@motionone/svelte", "npm:10.16.4"],\
+          ["@motionone/dom", "npm:10.18.0"],\
+          ["tslib", "npm:2.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@motionone/types", [\
+      ["npm:10.17.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@motionone-types-npm-10.17.1-47076caef0-10c0.zip/node_modules/@motionone/types/",\
+        "packageDependencies": [\
+          ["@motionone/types", "npm:10.17.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@motionone/utils", [\
+      ["npm:10.18.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@motionone-utils-npm-10.18.0-40cdd5a767-10c0.zip/node_modules/@motionone/utils/",\
+        "packageDependencies": [\
+          ["@motionone/utils", "npm:10.18.0"],\
+          ["@motionone/types", "npm:10.17.1"],\
+          ["hey-listen", "npm:1.0.8"],\
+          ["tslib", "npm:2.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@motionone/vue", [\
+      ["npm:10.16.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@motionone-vue-npm-10.16.4-dfe89d4fa6-10c0.zip/node_modules/@motionone/vue/",\
+        "packageDependencies": [\
+          ["@motionone/vue", "npm:10.16.4"],\
+          ["@motionone/dom", "npm:10.18.0"],\
+          ["tslib", "npm:2.7.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -310,6 +1448,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@noble/hashes", [\
+      ["npm:1.5.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@noble-hashes-npm-1.5.0-87c768d742-10c0.zip/node_modules/@noble/hashes/",\
+        "packageDependencies": [\
+          ["@noble/hashes", "npm:1.5.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@nodelib/fs.scandir", [\
       ["npm:2.1.5", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@nodelib-fs.scandir-npm-2.1.5-89c67370dd-10c0.zip/node_modules/@nodelib/fs.scandir/",\
@@ -374,6 +1521,152 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@parcel/watcher", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@parcel-watcher-npm-2.4.1-2b3c6bb4aa-10c0.zip/node_modules/@parcel/watcher/",\
+        "packageDependencies": [\
+          ["@parcel/watcher", "npm:2.4.1"],\
+          ["@parcel/watcher-android-arm64", "npm:2.4.1"],\
+          ["@parcel/watcher-darwin-arm64", "npm:2.4.1"],\
+          ["@parcel/watcher-darwin-x64", "npm:2.4.1"],\
+          ["@parcel/watcher-freebsd-x64", "npm:2.4.1"],\
+          ["@parcel/watcher-linux-arm-glibc", "npm:2.4.1"],\
+          ["@parcel/watcher-linux-arm64-glibc", "npm:2.4.1"],\
+          ["@parcel/watcher-linux-arm64-musl", "npm:2.4.1"],\
+          ["@parcel/watcher-linux-x64-glibc", "npm:2.4.1"],\
+          ["@parcel/watcher-linux-x64-musl", "npm:2.4.1"],\
+          ["@parcel/watcher-win32-arm64", "npm:2.4.1"],\
+          ["@parcel/watcher-win32-ia32", "npm:2.4.1"],\
+          ["@parcel/watcher-win32-x64", "npm:2.4.1"],\
+          ["detect-libc", "npm:1.0.3"],\
+          ["is-glob", "npm:4.0.3"],\
+          ["micromatch", "npm:4.0.8"],\
+          ["node-addon-api", "npm:7.1.1"],\
+          ["node-gyp", "npm:10.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-android-arm64", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-android-arm64-npm-2.4.1-f16637b8e9/node_modules/@parcel/watcher-android-arm64/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-android-arm64", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-darwin-arm64", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-darwin-arm64-npm-2.4.1-7294eb72cd/node_modules/@parcel/watcher-darwin-arm64/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-darwin-arm64", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-darwin-x64", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-darwin-x64-npm-2.4.1-e905ba5776/node_modules/@parcel/watcher-darwin-x64/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-darwin-x64", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-freebsd-x64", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-freebsd-x64-npm-2.4.1-e791fddc80/node_modules/@parcel/watcher-freebsd-x64/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-freebsd-x64", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-linux-arm-glibc", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm-glibc-npm-2.4.1-30dc29e34e/node_modules/@parcel/watcher-linux-arm-glibc/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-linux-arm-glibc", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-linux-arm64-glibc", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm64-glibc-npm-2.4.1-a58b99833d/node_modules/@parcel/watcher-linux-arm64-glibc/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-linux-arm64-glibc", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-linux-arm64-musl", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-arm64-musl-npm-2.4.1-88674463a0/node_modules/@parcel/watcher-linux-arm64-musl/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-linux-arm64-musl", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-linux-x64-glibc", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-x64-glibc-npm-2.4.1-e13cc4f7d9/node_modules/@parcel/watcher-linux-x64-glibc/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-linux-x64-glibc", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-linux-x64-musl", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-linux-x64-musl-npm-2.4.1-5f47bb6a24/node_modules/@parcel/watcher-linux-x64-musl/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-linux-x64-musl", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-wasm", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@parcel-watcher-wasm-npm-2.4.1-019d2d65c5-10c0.zip/node_modules/@parcel/watcher-wasm/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-wasm", "npm:2.4.1"],\
+          ["is-glob", "npm:4.0.3"],\
+          ["micromatch", "npm:4.0.8"],\
+          ["napi-wasm", "npm:1.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-win32-arm64", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-win32-arm64-npm-2.4.1-9bd9bde302/node_modules/@parcel/watcher-win32-arm64/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-win32-arm64", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-win32-ia32", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-win32-ia32-npm-2.4.1-cf6408ff95/node_modules/@parcel/watcher-win32-ia32/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-win32-ia32", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@parcel/watcher-win32-x64", [\
+      ["npm:2.4.1", {\
+        "packageLocation": "./.yarn/unplugged/@parcel-watcher-win32-x64-npm-2.4.1-770608937e/node_modules/@parcel/watcher-win32-x64/",\
+        "packageDependencies": [\
+          ["@parcel/watcher-win32-x64", "npm:2.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@pkgjs/parseargs", [\
       ["npm:0.11.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@pkgjs-parseargs-npm-0.11.0-cd2a3fe948-10c0.zip/node_modules/@pkgjs/parseargs/",\
@@ -397,6 +1690,213 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@rushstack-eslint-patch-npm-1.10.4-a760e177e3-10c0.zip/node_modules/@rushstack/eslint-patch/",\
         "packageDependencies": [\
           ["@rushstack/eslint-patch", "npm:1.10.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@spruceid/siwe-parser", [\
+      ["npm:2.1.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@spruceid-siwe-parser-npm-2.1.2-b053a9dcd5-10c0.zip/node_modules/@spruceid/siwe-parser/",\
+        "packageDependencies": [\
+          ["@spruceid/siwe-parser", "npm:2.1.2"],\
+          ["@noble/hashes", "npm:1.5.0"],\
+          ["apg-js", "npm:4.4.0"],\
+          ["uri-js", "npm:4.4.1"],\
+          ["valid-url", "npm:1.0.9"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/aead", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-aead-npm-1.0.1-0e8dc9bd41-10c0.zip/node_modules/@stablelib/aead/",\
+        "packageDependencies": [\
+          ["@stablelib/aead", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/binary", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-binary-npm-1.0.1-dbaa06d163-10c0.zip/node_modules/@stablelib/binary/",\
+        "packageDependencies": [\
+          ["@stablelib/binary", "npm:1.0.1"],\
+          ["@stablelib/int", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/bytes", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-bytes-npm-1.0.1-397232fa65-10c0.zip/node_modules/@stablelib/bytes/",\
+        "packageDependencies": [\
+          ["@stablelib/bytes", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/chacha", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-chacha-npm-1.0.1-0677810101-10c0.zip/node_modules/@stablelib/chacha/",\
+        "packageDependencies": [\
+          ["@stablelib/chacha", "npm:1.0.1"],\
+          ["@stablelib/binary", "npm:1.0.1"],\
+          ["@stablelib/wipe", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/chacha20poly1305", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-chacha20poly1305-npm-1.0.1-d772975327-10c0.zip/node_modules/@stablelib/chacha20poly1305/",\
+        "packageDependencies": [\
+          ["@stablelib/chacha20poly1305", "npm:1.0.1"],\
+          ["@stablelib/aead", "npm:1.0.1"],\
+          ["@stablelib/binary", "npm:1.0.1"],\
+          ["@stablelib/chacha", "npm:1.0.1"],\
+          ["@stablelib/constant-time", "npm:1.0.1"],\
+          ["@stablelib/poly1305", "npm:1.0.1"],\
+          ["@stablelib/wipe", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/constant-time", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-constant-time-npm-1.0.1-47c922000e-10c0.zip/node_modules/@stablelib/constant-time/",\
+        "packageDependencies": [\
+          ["@stablelib/constant-time", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/ed25519", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-ed25519-npm-1.0.3-d8e5369d96-10c0.zip/node_modules/@stablelib/ed25519/",\
+        "packageDependencies": [\
+          ["@stablelib/ed25519", "npm:1.0.3"],\
+          ["@stablelib/random", "npm:1.0.2"],\
+          ["@stablelib/sha512", "npm:1.0.1"],\
+          ["@stablelib/wipe", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/hash", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-hash-npm-1.0.1-4a73827386-10c0.zip/node_modules/@stablelib/hash/",\
+        "packageDependencies": [\
+          ["@stablelib/hash", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/hkdf", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-hkdf-npm-1.0.1-035692b7fd-10c0.zip/node_modules/@stablelib/hkdf/",\
+        "packageDependencies": [\
+          ["@stablelib/hkdf", "npm:1.0.1"],\
+          ["@stablelib/hash", "npm:1.0.1"],\
+          ["@stablelib/hmac", "npm:1.0.1"],\
+          ["@stablelib/wipe", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/hmac", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-hmac-npm-1.0.1-5f0464fe55-10c0.zip/node_modules/@stablelib/hmac/",\
+        "packageDependencies": [\
+          ["@stablelib/hmac", "npm:1.0.1"],\
+          ["@stablelib/constant-time", "npm:1.0.1"],\
+          ["@stablelib/hash", "npm:1.0.1"],\
+          ["@stablelib/wipe", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/int", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-int-npm-1.0.1-c8f9f3f48e-10c0.zip/node_modules/@stablelib/int/",\
+        "packageDependencies": [\
+          ["@stablelib/int", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/keyagreement", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-keyagreement-npm-1.0.1-b0bb3e9122-10c0.zip/node_modules/@stablelib/keyagreement/",\
+        "packageDependencies": [\
+          ["@stablelib/keyagreement", "npm:1.0.1"],\
+          ["@stablelib/bytes", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/poly1305", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-poly1305-npm-1.0.1-f2b5f57a00-10c0.zip/node_modules/@stablelib/poly1305/",\
+        "packageDependencies": [\
+          ["@stablelib/poly1305", "npm:1.0.1"],\
+          ["@stablelib/constant-time", "npm:1.0.1"],\
+          ["@stablelib/wipe", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/random", [\
+      ["npm:1.0.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-random-npm-1.0.2-9ec4c00173-10c0.zip/node_modules/@stablelib/random/",\
+        "packageDependencies": [\
+          ["@stablelib/random", "npm:1.0.2"],\
+          ["@stablelib/binary", "npm:1.0.1"],\
+          ["@stablelib/wipe", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/sha256", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-sha256-npm-1.0.1-34f1983250-10c0.zip/node_modules/@stablelib/sha256/",\
+        "packageDependencies": [\
+          ["@stablelib/sha256", "npm:1.0.1"],\
+          ["@stablelib/binary", "npm:1.0.1"],\
+          ["@stablelib/hash", "npm:1.0.1"],\
+          ["@stablelib/wipe", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/sha512", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-sha512-npm-1.0.1-99a9e0883b-10c0.zip/node_modules/@stablelib/sha512/",\
+        "packageDependencies": [\
+          ["@stablelib/sha512", "npm:1.0.1"],\
+          ["@stablelib/binary", "npm:1.0.1"],\
+          ["@stablelib/hash", "npm:1.0.1"],\
+          ["@stablelib/wipe", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/wipe", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-wipe-npm-1.0.1-3395f422e4-10c0.zip/node_modules/@stablelib/wipe/",\
+        "packageDependencies": [\
+          ["@stablelib/wipe", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@stablelib/x25519", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@stablelib-x25519-npm-1.0.3-5af5204b26-10c0.zip/node_modules/@stablelib/x25519/",\
+        "packageDependencies": [\
+          ["@stablelib/x25519", "npm:1.0.3"],\
+          ["@stablelib/keyagreement", "npm:1.0.1"],\
+          ["@stablelib/random", "npm:1.0.2"],\
+          ["@stablelib/wipe", "npm:1.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -448,6 +1948,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@types/trusted-types", [\
+      ["npm:2.0.7", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@types-trusted-types-npm-2.0.7-a07fc44f59-10c0.zip/node_modules/@types/trusted-types/",\
+        "packageDependencies": [\
+          ["@types/trusted-types", "npm:2.0.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["@typescript-eslint/eslint-plugin", [\
       ["npm:7.2.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@typescript-eslint-eslint-plugin-npm-7.2.0-8b16e978f1-10c0.zip/node_modules/@typescript-eslint/eslint-plugin/",\
@@ -469,7 +1978,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/type-utils", "virtual:e682f80f5e421663c2228e95b5a08f8e86d81ce958392bd8f27633d1c35c79879ad47225059ae620f59787b2a59a9b6b6f192e46e9f63498af8b01a6da01dff2#npm:7.2.0"],\
           ["@typescript-eslint/utils", "virtual:e682f80f5e421663c2228e95b5a08f8e86d81ce958392bd8f27633d1c35c79879ad47225059ae620f59787b2a59a9b6b6f192e46e9f63498af8b01a6da01dff2#npm:7.2.0"],\
           ["@typescript-eslint/visitor-keys", "npm:7.2.0"],\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"],\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"],\
           ["eslint", "npm:8.57.0"],\
           ["graphemer", "npm:1.4.0"],\
           ["ignore", "npm:5.3.2"],\
@@ -507,7 +2016,7 @@ const RAW_RUNTIME_STATE =
           ["@typescript-eslint/types", "npm:7.2.0"],\
           ["@typescript-eslint/typescript-estree", "virtual:2f6466cf7e9287add22e90cf0e5b76c1a17c80d0bae9997d41668c34b53ff1a3b13ba632df14a514241f796130e2e091535abb8b0263e3a79b6a423e405927c4#npm:7.2.0"],\
           ["@typescript-eslint/visitor-keys", "npm:7.2.0"],\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"],\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"],\
           ["eslint", "npm:8.57.0"],\
           ["typescript", null]\
         ],\
@@ -547,7 +2056,7 @@ const RAW_RUNTIME_STATE =
           ["@types/typescript", null],\
           ["@typescript-eslint/typescript-estree", "virtual:2f6466cf7e9287add22e90cf0e5b76c1a17c80d0bae9997d41668c34b53ff1a3b13ba632df14a514241f796130e2e091535abb8b0263e3a79b6a423e405927c4#npm:7.2.0"],\
           ["@typescript-eslint/utils", "virtual:e682f80f5e421663c2228e95b5a08f8e86d81ce958392bd8f27633d1c35c79879ad47225059ae620f59787b2a59a9b6b6f192e46e9f63498af8b01a6da01dff2#npm:7.2.0"],\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"],\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"],\
           ["eslint", "npm:8.57.0"],\
           ["ts-api-utils", "virtual:e682f80f5e421663c2228e95b5a08f8e86d81ce958392bd8f27633d1c35c79879ad47225059ae620f59787b2a59a9b6b6f192e46e9f63498af8b01a6da01dff2#npm:1.3.0"],\
           ["typescript", null]\
@@ -585,7 +2094,7 @@ const RAW_RUNTIME_STATE =
           ["@types/typescript", null],\
           ["@typescript-eslint/types", "npm:7.2.0"],\
           ["@typescript-eslint/visitor-keys", "npm:7.2.0"],\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"],\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"],\
           ["globby", "npm:11.1.0"],\
           ["is-glob", "npm:4.0.3"],\
           ["minimatch", "npm:9.0.3"],\
@@ -649,6 +2158,386 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["@walletconnect/core", [\
+      ["npm:2.9.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-core-npm-2.9.2-afa5131d85-10c0.zip/node_modules/@walletconnect/core/",\
+        "packageDependencies": [\
+          ["@walletconnect/core", "npm:2.9.2"],\
+          ["@walletconnect/heartbeat", "npm:1.2.1"],\
+          ["@walletconnect/jsonrpc-provider", "npm:1.0.13"],\
+          ["@walletconnect/jsonrpc-types", "npm:1.0.3"],\
+          ["@walletconnect/jsonrpc-utils", "npm:1.0.8"],\
+          ["@walletconnect/jsonrpc-ws-connection", "npm:1.0.13"],\
+          ["@walletconnect/keyvaluestorage", "virtual:96ac219676f401d440c04d0f876e1edf2ee2fd6b909ff68600577756ca7859006c571b8ddf0f9e75da6d135f60f23cc7c400e80d3ddf20c3e0a759c728e42b4e#npm:1.1.1"],\
+          ["@walletconnect/logger", "npm:2.1.2"],\
+          ["@walletconnect/relay-api", "npm:1.0.11"],\
+          ["@walletconnect/relay-auth", "npm:1.0.4"],\
+          ["@walletconnect/safe-json", "npm:1.0.2"],\
+          ["@walletconnect/time", "npm:1.0.2"],\
+          ["@walletconnect/types", "npm:2.9.2"],\
+          ["@walletconnect/utils", "npm:2.9.2"],\
+          ["events", "npm:3.3.0"],\
+          ["lodash.isequal", "npm:4.5.0"],\
+          ["uint8arrays", "npm:3.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/environment", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-environment-npm-1.0.1-fd23e8ef40-10c0.zip/node_modules/@walletconnect/environment/",\
+        "packageDependencies": [\
+          ["@walletconnect/environment", "npm:1.0.1"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/ethereum-provider", [\
+      ["npm:2.9.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-ethereum-provider-npm-2.9.2-dfcdeeb640-10c0.zip/node_modules/@walletconnect/ethereum-provider/",\
+        "packageDependencies": [\
+          ["@walletconnect/ethereum-provider", "npm:2.9.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:08763061c07cef4c158768fcf4f7c57adad9ce83f7605ce0497c45ec78ec573c3639dd87996545c6410ddcb76367dca5a64b76a409b61dc5d2db15bb6a088d64#npm:2.9.2", {\
+        "packageLocation": "./.yarn/__virtual__/@walletconnect-ethereum-provider-virtual-0c23ae0d0d/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-ethereum-provider-npm-2.9.2-dfcdeeb640-10c0.zip/node_modules/@walletconnect/ethereum-provider/",\
+        "packageDependencies": [\
+          ["@walletconnect/ethereum-provider", "virtual:08763061c07cef4c158768fcf4f7c57adad9ce83f7605ce0497c45ec78ec573c3639dd87996545c6410ddcb76367dca5a64b76a409b61dc5d2db15bb6a088d64#npm:2.9.2"],\
+          ["@types/walletconnect__modal", null],\
+          ["@walletconnect/jsonrpc-http-connection", "npm:1.0.8"],\
+          ["@walletconnect/jsonrpc-provider", "npm:1.0.14"],\
+          ["@walletconnect/jsonrpc-types", "npm:1.0.4"],\
+          ["@walletconnect/jsonrpc-utils", "npm:1.0.8"],\
+          ["@walletconnect/modal", "npm:2.6.1"],\
+          ["@walletconnect/sign-client", "npm:2.9.2"],\
+          ["@walletconnect/types", "npm:2.9.2"],\
+          ["@walletconnect/universal-provider", "npm:2.9.2"],\
+          ["@walletconnect/utils", "npm:2.9.2"],\
+          ["events", "npm:3.3.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/walletconnect__modal",\
+          "@walletconnect/modal"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/events", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-events-npm-1.0.1-7039d3ead6-10c0.zip/node_modules/@walletconnect/events/",\
+        "packageDependencies": [\
+          ["@walletconnect/events", "npm:1.0.1"],\
+          ["keyvaluestorage-interface", "npm:1.0.0"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/heartbeat", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-heartbeat-npm-1.2.1-b297e6b967-10c0.zip/node_modules/@walletconnect/heartbeat/",\
+        "packageDependencies": [\
+          ["@walletconnect/heartbeat", "npm:1.2.1"],\
+          ["@walletconnect/events", "npm:1.0.1"],\
+          ["@walletconnect/time", "npm:1.0.2"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/jsonrpc-http-connection", [\
+      ["npm:1.0.8", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-jsonrpc-http-connection-npm-1.0.8-99b201d61f-10c0.zip/node_modules/@walletconnect/jsonrpc-http-connection/",\
+        "packageDependencies": [\
+          ["@walletconnect/jsonrpc-http-connection", "npm:1.0.8"],\
+          ["@walletconnect/jsonrpc-utils", "npm:1.0.8"],\
+          ["@walletconnect/safe-json", "npm:1.0.2"],\
+          ["cross-fetch", "npm:3.1.8"],\
+          ["events", "npm:3.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/jsonrpc-provider", [\
+      ["npm:1.0.13", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-jsonrpc-provider-npm-1.0.13-45a4d6ed76-10c0.zip/node_modules/@walletconnect/jsonrpc-provider/",\
+        "packageDependencies": [\
+          ["@walletconnect/jsonrpc-provider", "npm:1.0.13"],\
+          ["@walletconnect/jsonrpc-utils", "npm:1.0.8"],\
+          ["@walletconnect/safe-json", "npm:1.0.2"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.0.14", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-jsonrpc-provider-npm-1.0.14-af25784909-10c0.zip/node_modules/@walletconnect/jsonrpc-provider/",\
+        "packageDependencies": [\
+          ["@walletconnect/jsonrpc-provider", "npm:1.0.14"],\
+          ["@walletconnect/jsonrpc-utils", "npm:1.0.8"],\
+          ["@walletconnect/safe-json", "npm:1.0.2"],\
+          ["events", "npm:3.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/jsonrpc-types", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-jsonrpc-types-npm-1.0.3-3051f51215-10c0.zip/node_modules/@walletconnect/jsonrpc-types/",\
+        "packageDependencies": [\
+          ["@walletconnect/jsonrpc-types", "npm:1.0.3"],\
+          ["keyvaluestorage-interface", "npm:1.0.0"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.0.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-jsonrpc-types-npm-1.0.4-e1ef30d66e-10c0.zip/node_modules/@walletconnect/jsonrpc-types/",\
+        "packageDependencies": [\
+          ["@walletconnect/jsonrpc-types", "npm:1.0.4"],\
+          ["events", "npm:3.3.0"],\
+          ["keyvaluestorage-interface", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/jsonrpc-utils", [\
+      ["npm:1.0.8", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-jsonrpc-utils-npm-1.0.8-3f7def656d-10c0.zip/node_modules/@walletconnect/jsonrpc-utils/",\
+        "packageDependencies": [\
+          ["@walletconnect/jsonrpc-utils", "npm:1.0.8"],\
+          ["@walletconnect/environment", "npm:1.0.1"],\
+          ["@walletconnect/jsonrpc-types", "npm:1.0.4"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/jsonrpc-ws-connection", [\
+      ["npm:1.0.13", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-jsonrpc-ws-connection-npm-1.0.13-9591f3240b-10c0.zip/node_modules/@walletconnect/jsonrpc-ws-connection/",\
+        "packageDependencies": [\
+          ["@walletconnect/jsonrpc-ws-connection", "npm:1.0.13"],\
+          ["@walletconnect/jsonrpc-utils", "npm:1.0.8"],\
+          ["@walletconnect/safe-json", "npm:1.0.2"],\
+          ["events", "npm:3.3.0"],\
+          ["tslib", "npm:1.14.1"],\
+          ["ws", "virtual:9591f3240bc6ee5f06fb73f462032c5faa524d3423efb9ff612135a763526d66789a214b788e2b1faf3a3a602618547be0b8a4e91729fe1caf84f17ba3ff3535#npm:7.5.10"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/keyvaluestorage", [\
+      ["npm:1.1.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-keyvaluestorage-npm-1.1.1-4cdf80afee-10c0.zip/node_modules/@walletconnect/keyvaluestorage/",\
+        "packageDependencies": [\
+          ["@walletconnect/keyvaluestorage", "npm:1.1.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:96ac219676f401d440c04d0f876e1edf2ee2fd6b909ff68600577756ca7859006c571b8ddf0f9e75da6d135f60f23cc7c400e80d3ddf20c3e0a759c728e42b4e#npm:1.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/@walletconnect-keyvaluestorage-virtual-d577bfd4c5/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-keyvaluestorage-npm-1.1.1-4cdf80afee-10c0.zip/node_modules/@walletconnect/keyvaluestorage/",\
+        "packageDependencies": [\
+          ["@walletconnect/keyvaluestorage", "virtual:96ac219676f401d440c04d0f876e1edf2ee2fd6b909ff68600577756ca7859006c571b8ddf0f9e75da6d135f60f23cc7c400e80d3ddf20c3e0a759c728e42b4e#npm:1.1.1"],\
+          ["@react-native-async-storage/async-storage", null],\
+          ["@types/react-native-async-storage__async-storage", null],\
+          ["@walletconnect/safe-json", "npm:1.0.2"],\
+          ["idb-keyval", "npm:6.2.1"],\
+          ["unstorage", "virtual:d577bfd4c52f76eeef81e5bf913ab81f7fe5cabe37307be2d45ccf567d65cbe804b8e0c632fb331e64d77eaeb4907f8a6367799064b3f4eda195236aaada313c#npm:1.12.0"]\
+        ],\
+        "packagePeers": [\
+          "@react-native-async-storage/async-storage",\
+          "@types/react-native-async-storage__async-storage"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/logger", [\
+      ["npm:2.1.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-logger-npm-2.1.2-54d063194c-10c0.zip/node_modules/@walletconnect/logger/",\
+        "packageDependencies": [\
+          ["@walletconnect/logger", "npm:2.1.2"],\
+          ["@walletconnect/safe-json", "npm:1.0.2"],\
+          ["pino", "npm:7.11.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/modal", [\
+      ["npm:2.6.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-modal-npm-2.6.1-9d0fd73e56-10c0.zip/node_modules/@walletconnect/modal/",\
+        "packageDependencies": [\
+          ["@walletconnect/modal", "npm:2.6.1"],\
+          ["@walletconnect/modal-core", "npm:2.6.1"],\
+          ["@walletconnect/modal-ui", "npm:2.6.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/modal-core", [\
+      ["npm:2.6.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-modal-core-npm-2.6.1-cfe206b226-10c0.zip/node_modules/@walletconnect/modal-core/",\
+        "packageDependencies": [\
+          ["@walletconnect/modal-core", "npm:2.6.1"],\
+          ["valtio", "virtual:cfe206b2266f6b2aca1423b037e8e6ace5cf5964029c65ae80a3e953e877340c5b8ad02eac9578c1345fdd58deddf66cafcdc21c9631453da4040bb1fe0abfa7#npm:1.11.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/modal-ui", [\
+      ["npm:2.6.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-modal-ui-npm-2.6.1-ad69d01411-10c0.zip/node_modules/@walletconnect/modal-ui/",\
+        "packageDependencies": [\
+          ["@walletconnect/modal-ui", "npm:2.6.1"],\
+          ["@walletconnect/modal-core", "npm:2.6.1"],\
+          ["lit", "npm:2.7.6"],\
+          ["motion", "npm:10.16.2"],\
+          ["qrcode", "npm:1.5.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/relay-api", [\
+      ["npm:1.0.11", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-relay-api-npm-1.0.11-799de3a22d-10c0.zip/node_modules/@walletconnect/relay-api/",\
+        "packageDependencies": [\
+          ["@walletconnect/relay-api", "npm:1.0.11"],\
+          ["@walletconnect/jsonrpc-types", "npm:1.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/relay-auth", [\
+      ["npm:1.0.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-relay-auth-npm-1.0.4-9716a60f0c-10c0.zip/node_modules/@walletconnect/relay-auth/",\
+        "packageDependencies": [\
+          ["@walletconnect/relay-auth", "npm:1.0.4"],\
+          ["@stablelib/ed25519", "npm:1.0.3"],\
+          ["@stablelib/random", "npm:1.0.2"],\
+          ["@walletconnect/safe-json", "npm:1.0.2"],\
+          ["@walletconnect/time", "npm:1.0.2"],\
+          ["tslib", "npm:1.14.1"],\
+          ["uint8arrays", "npm:3.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/safe-json", [\
+      ["npm:1.0.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-safe-json-npm-1.0.2-c2759199f4-10c0.zip/node_modules/@walletconnect/safe-json/",\
+        "packageDependencies": [\
+          ["@walletconnect/safe-json", "npm:1.0.2"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/sign-client", [\
+      ["npm:2.9.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-sign-client-npm-2.9.2-a8cadc3277-10c0.zip/node_modules/@walletconnect/sign-client/",\
+        "packageDependencies": [\
+          ["@walletconnect/sign-client", "npm:2.9.2"],\
+          ["@walletconnect/core", "npm:2.9.2"],\
+          ["@walletconnect/events", "npm:1.0.1"],\
+          ["@walletconnect/heartbeat", "npm:1.2.1"],\
+          ["@walletconnect/jsonrpc-utils", "npm:1.0.8"],\
+          ["@walletconnect/logger", "npm:2.1.2"],\
+          ["@walletconnect/time", "npm:1.0.2"],\
+          ["@walletconnect/types", "npm:2.9.2"],\
+          ["@walletconnect/utils", "npm:2.9.2"],\
+          ["events", "npm:3.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/time", [\
+      ["npm:1.0.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-time-npm-1.0.2-b07df57e5d-10c0.zip/node_modules/@walletconnect/time/",\
+        "packageDependencies": [\
+          ["@walletconnect/time", "npm:1.0.2"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/types", [\
+      ["npm:2.9.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-types-npm-2.9.2-96ac219676-10c0.zip/node_modules/@walletconnect/types/",\
+        "packageDependencies": [\
+          ["@walletconnect/types", "npm:2.9.2"],\
+          ["@walletconnect/events", "npm:1.0.1"],\
+          ["@walletconnect/heartbeat", "npm:1.2.1"],\
+          ["@walletconnect/jsonrpc-types", "npm:1.0.3"],\
+          ["@walletconnect/keyvaluestorage", "virtual:96ac219676f401d440c04d0f876e1edf2ee2fd6b909ff68600577756ca7859006c571b8ddf0f9e75da6d135f60f23cc7c400e80d3ddf20c3e0a759c728e42b4e#npm:1.1.1"],\
+          ["@walletconnect/logger", "npm:2.1.2"],\
+          ["events", "npm:3.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/universal-provider", [\
+      ["npm:2.9.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-universal-provider-npm-2.9.2-2d34a601f7-10c0.zip/node_modules/@walletconnect/universal-provider/",\
+        "packageDependencies": [\
+          ["@walletconnect/universal-provider", "npm:2.9.2"],\
+          ["@walletconnect/jsonrpc-http-connection", "npm:1.0.8"],\
+          ["@walletconnect/jsonrpc-provider", "npm:1.0.13"],\
+          ["@walletconnect/jsonrpc-types", "npm:1.0.4"],\
+          ["@walletconnect/jsonrpc-utils", "npm:1.0.8"],\
+          ["@walletconnect/logger", "npm:2.1.2"],\
+          ["@walletconnect/sign-client", "npm:2.9.2"],\
+          ["@walletconnect/types", "npm:2.9.2"],\
+          ["@walletconnect/utils", "npm:2.9.2"],\
+          ["events", "npm:3.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/utils", [\
+      ["npm:2.9.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-utils-npm-2.9.2-332acc8114-10c0.zip/node_modules/@walletconnect/utils/",\
+        "packageDependencies": [\
+          ["@walletconnect/utils", "npm:2.9.2"],\
+          ["@stablelib/chacha20poly1305", "npm:1.0.1"],\
+          ["@stablelib/hkdf", "npm:1.0.1"],\
+          ["@stablelib/random", "npm:1.0.2"],\
+          ["@stablelib/sha256", "npm:1.0.1"],\
+          ["@stablelib/x25519", "npm:1.0.3"],\
+          ["@walletconnect/relay-api", "npm:1.0.11"],\
+          ["@walletconnect/safe-json", "npm:1.0.2"],\
+          ["@walletconnect/time", "npm:1.0.2"],\
+          ["@walletconnect/types", "npm:2.9.2"],\
+          ["@walletconnect/window-getters", "npm:1.0.1"],\
+          ["@walletconnect/window-metadata", "npm:1.0.1"],\
+          ["detect-browser", "npm:5.3.0"],\
+          ["query-string", "npm:7.1.3"],\
+          ["uint8arrays", "npm:3.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/window-getters", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-window-getters-npm-1.0.1-9d794a4f54-10c0.zip/node_modules/@walletconnect/window-getters/",\
+        "packageDependencies": [\
+          ["@walletconnect/window-getters", "npm:1.0.1"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["@walletconnect/window-metadata", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/@walletconnect-window-metadata-npm-1.0.1-d523524327-10c0.zip/node_modules/@walletconnect/window-metadata/",\
+        "packageDependencies": [\
+          ["@walletconnect/window-metadata", "npm:1.0.1"],\
+          ["@walletconnect/window-getters", "npm:1.0.1"],\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["abbrev", [\
       ["npm:2.0.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/abbrev-npm-2.0.0-0eb38a17e5-10c0.zip/node_modules/abbrev/",\
@@ -689,12 +2578,21 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["aes-js", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/aes-js-npm-3.0.0-fdf135c6be-10c0.zip/node_modules/aes-js/",\
+        "packageDependencies": [\
+          ["aes-js", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["agent-base", [\
       ["npm:7.1.1", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/agent-base-npm-7.1.1-c9e1a4b59e-10c0.zip/node_modules/agent-base/",\
         "packageDependencies": [\
           ["agent-base", "npm:7.1.1"],\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"]\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -719,6 +2617,17 @@ const RAW_RUNTIME_STATE =
           ["fast-json-stable-stringify", "npm:2.1.0"],\
           ["json-schema-traverse", "npm:0.4.1"],\
           ["uri-js", "npm:4.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:8.17.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/ajv-npm-8.17.1-12ade7edc6-10c0.zip/node_modules/ajv/",\
+        "packageDependencies": [\
+          ["ajv", "npm:8.17.1"],\
+          ["fast-deep-equal", "npm:3.1.3"],\
+          ["fast-uri", "npm:3.0.1"],\
+          ["json-schema-traverse", "npm:1.0.0"],\
+          ["require-from-string", "npm:2.0.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -772,6 +2681,15 @@ const RAW_RUNTIME_STATE =
           ["anymatch", "npm:3.1.3"],\
           ["normalize-path", "npm:3.0.0"],\
           ["picomatch", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["apg-js", [\
+      ["npm:4.4.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/apg-js-npm-4.4.0-8a18027aa7-10c0.zip/node_modules/apg-js/",\
+        "packageDependencies": [\
+          ["apg-js", "npm:4.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -935,6 +2853,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["atomic-sleep", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/atomic-sleep-npm-1.0.0-17d8a762a3-10c0.zip/node_modules/atomic-sleep/",\
+        "packageDependencies": [\
+          ["atomic-sleep", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["available-typed-arrays", [\
       ["npm:1.0.7", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/available-typed-arrays-npm-1.0.7-e5e5d79687-10c0.zip/node_modules/available-typed-arrays/",\
@@ -972,11 +2899,85 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["base-x", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/base-x-npm-4.0.0-64a1f6fa5e-10c0.zip/node_modules/base-x/",\
+        "packageDependencies": [\
+          ["base-x", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["base64-js", [\
+      ["npm:1.5.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/base64-js-npm-1.5.1-b2f7275641-10c0.zip/node_modules/base64-js/",\
+        "packageDependencies": [\
+          ["base64-js", "npm:1.5.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bech32", [\
+      ["npm:1.1.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/bech32-npm-1.1.4-87b69922f7-10c0.zip/node_modules/bech32/",\
+        "packageDependencies": [\
+          ["bech32", "npm:1.1.4"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/bech32-npm-2.0.0-ad98b7dd79-10c0.zip/node_modules/bech32/",\
+        "packageDependencies": [\
+          ["bech32", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["binary-extensions", [\
       ["npm:2.3.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/binary-extensions-npm-2.3.0-bd3f20d865-10c0.zip/node_modules/binary-extensions/",\
         "packageDependencies": [\
           ["binary-extensions", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bip174", [\
+      ["npm:2.1.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/bip174-npm-2.1.1-d9fcaf36f9-10c0.zip/node_modules/bip174/",\
+        "packageDependencies": [\
+          ["bip174", "npm:2.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bitcoinjs-lib", [\
+      ["npm:6.1.6", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/bitcoinjs-lib-npm-6.1.6-d063b5a8ff-10c0.zip/node_modules/bitcoinjs-lib/",\
+        "packageDependencies": [\
+          ["bitcoinjs-lib", "npm:6.1.6"],\
+          ["@noble/hashes", "npm:1.5.0"],\
+          ["bech32", "npm:2.0.0"],\
+          ["bip174", "npm:2.1.1"],\
+          ["bs58check", "npm:3.0.1"],\
+          ["typeforce", "npm:1.18.0"],\
+          ["varuint-bitcoin", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bn.js", [\
+      ["npm:4.12.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/bn.js-npm-4.12.0-3ec6c884f6-10c0.zip/node_modules/bn.js/",\
+        "packageDependencies": [\
+          ["bn.js", "npm:4.12.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.2.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/bn.js-npm-5.2.1-dc952b1965-10c0.zip/node_modules/bn.js/",\
+        "packageDependencies": [\
+          ["bn.js", "npm:5.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1006,6 +3007,36 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["braces", "npm:3.0.3"],\
           ["fill-range", "npm:7.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["brorand", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/brorand-npm-1.1.0-ea86634c4b-10c0.zip/node_modules/brorand/",\
+        "packageDependencies": [\
+          ["brorand", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bs58", [\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/bs58-npm-5.0.0-da02537b92-10c0.zip/node_modules/bs58/",\
+        "packageDependencies": [\
+          ["bs58", "npm:5.0.0"],\
+          ["base-x", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["bs58check", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/bs58check-npm-3.0.1-be32851e5e-10c0.zip/node_modules/bs58check/",\
+        "packageDependencies": [\
+          ["bs58check", "npm:3.0.1"],\
+          ["@noble/hashes", "npm:1.5.0"],\
+          ["bs58", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1064,6 +3095,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["camelcase", [\
+      ["npm:5.3.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/camelcase-npm-5.3.1-5db8af62c5-10c0.zip/node_modules/camelcase/",\
+        "packageDependencies": [\
+          ["camelcase", "npm:5.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["camelcase-css", [\
       ["npm:2.0.1", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/camelcase-css-npm-2.0.1-90d1b6df08-10c0.zip/node_modules/camelcase-css/",\
@@ -1078,6 +3118,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/caniuse-lite-npm-1.0.30001658-29a30319cb-10c0.zip/node_modules/caniuse-lite/",\
         "packageDependencies": [\
           ["caniuse-lite", "npm:1.0.30001658"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["canonicalize", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/canonicalize-npm-2.0.0-a4c91ec2bf-10c0.zip/node_modules/canonicalize/",\
+        "packageDependencies": [\
+          ["canonicalize", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1119,6 +3168,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["citty", [\
+      ["npm:0.1.6", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/citty-npm-0.1.6-60b76c16d8-10c0.zip/node_modules/citty/",\
+        "packageDependencies": [\
+          ["citty", "npm:0.1.6"],\
+          ["consola", "npm:3.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["clean-stack", [\
       ["npm:2.2.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/clean-stack-npm-2.2.0-a8ce435a5c-10c0.zip/node_modules/clean-stack/",\
@@ -1133,6 +3192,30 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/client-only-npm-0.0.1-07d3e9505c-10c0.zip/node_modules/client-only/",\
         "packageDependencies": [\
           ["client-only", "npm:0.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["clipboardy", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "./.yarn/unplugged/clipboardy-npm-4.0.0-cf5108727c/node_modules/clipboardy/",\
+        "packageDependencies": [\
+          ["clipboardy", "npm:4.0.0"],\
+          ["execa", "npm:8.0.1"],\
+          ["is-wsl", "npm:3.1.0"],\
+          ["is64bit", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["cliui", [\
+      ["npm:6.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/cliui-npm-6.0.0-488b2414c6-10c0.zip/node_modules/cliui/",\
+        "packageDependencies": [\
+          ["cliui", "npm:6.0.0"],\
+          ["string-width", "npm:4.2.3"],\
+          ["strip-ansi", "npm:6.0.1"],\
+          ["wrap-ansi", "npm:6.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1174,6 +3257,60 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["confbox", [\
+      ["npm:0.1.7", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/confbox-npm-0.1.7-0fb39b2d88-10c0.zip/node_modules/confbox/",\
+        "packageDependencies": [\
+          ["confbox", "npm:0.1.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["consola", [\
+      ["npm:3.2.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/consola-npm-3.2.3-fb2514b783-10c0.zip/node_modules/consola/",\
+        "packageDependencies": [\
+          ["consola", "npm:3.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["cookie-es", [\
+      ["npm:1.2.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/cookie-es-npm-1.2.2-32f0d524a3-10c0.zip/node_modules/cookie-es/",\
+        "packageDependencies": [\
+          ["cookie-es", "npm:1.2.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["core-util-is", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/core-util-is-npm-1.0.3-ca74b76c90-10c0.zip/node_modules/core-util-is/",\
+        "packageDependencies": [\
+          ["core-util-is", "npm:1.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["cross-fetch", [\
+      ["npm:3.1.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/cross-fetch-npm-3.1.4-45e4517cba-10c0.zip/node_modules/cross-fetch/",\
+        "packageDependencies": [\
+          ["cross-fetch", "npm:3.1.4"],\
+          ["node-fetch", "npm:2.6.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:3.1.8", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/cross-fetch-npm-3.1.8-71c3c05709-10c0.zip/node_modules/cross-fetch/",\
+        "packageDependencies": [\
+          ["cross-fetch", "npm:3.1.8"],\
+          ["node-fetch", "virtual:71c3c0570974c795b79987bb85d4a29514e196f75c7ca2bb56e80f88177e71cbbb73c9a0f02e781c6ccd33e5e8542eb2d0a05fb7aad876eea2872ec6993aa554#npm:2.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["cross-spawn", [\
       ["npm:7.0.3", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/cross-spawn-npm-7.0.3-e4ff3e65b3-10c0.zip/node_modules/cross-spawn/",\
@@ -1182,6 +3319,28 @@ const RAW_RUNTIME_STATE =
           ["path-key", "npm:3.1.1"],\
           ["shebang-command", "npm:2.0.0"],\
           ["which", "npm:2.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["crossws", [\
+      ["npm:0.2.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/crossws-npm-0.2.4-f03b7b7ef5-10c0.zip/node_modules/crossws/",\
+        "packageDependencies": [\
+          ["crossws", "npm:0.2.4"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:44ee042557f7215712ca5660d7ec53fdff41c618f9e994bd67e4cde0ae3a144132138f1463980d98e731130c42d0132a376c5abd2df3de2fb91ddd543832c4b9#npm:0.2.4", {\
+        "packageLocation": "./.yarn/__virtual__/crossws-virtual-94d5f26d6a/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/crossws-npm-0.2.4-f03b7b7ef5-10c0.zip/node_modules/crossws/",\
+        "packageDependencies": [\
+          ["crossws", "virtual:44ee042557f7215712ca5660d7ec53fdff41c618f9e994bd67e4cde0ae3a144132138f1463980d98e731130c42d0132a376c5abd2df3de2fb91ddd543832c4b9#npm:0.2.4"],\
+          ["@types/uWebSockets.js", null],\
+          ["uWebSockets.js", null]\
+        ],\
+        "packagePeers": [\
+          "@types/uWebSockets.js",\
+          "uWebSockets.js"\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1240,6 +3399,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["date-and-time", [\
+      ["npm:2.4.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/date-and-time-npm-2.4.3-b2a95309aa-10c0.zip/node_modules/date-and-time/",\
+        "packageDependencies": [\
+          ["date-and-time", "npm:2.4.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["debug", [\
       ["npm:3.2.7", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/debug-npm-3.2.7-754e818c7a-10c0.zip/node_modules/debug/",\
@@ -1255,20 +3423,6 @@ const RAW_RUNTIME_STATE =
         ],\
         "linkType": "SOFT"\
       }],\
-      ["virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7", {\
-        "packageLocation": "./.yarn/__virtual__/debug-virtual-d06b253898/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/debug-npm-4.3.7-385645adf9-10c0.zip/node_modules/debug/",\
-        "packageDependencies": [\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"],\
-          ["@types/supports-color", null],\
-          ["ms", "npm:2.1.3"],\
-          ["supports-color", null]\
-        ],\
-        "packagePeers": [\
-          "@types/supports-color",\
-          "supports-color"\
-        ],\
-        "linkType": "HARD"\
-      }],\
       ["virtual:2a426afc4b2eef43db12a540d29c2b5476640459bfcd5c24f86bb401cf8cce97e63bd81794d206a5643057e7f662643afd5ce3dfc4d4bfd8e706006c6309c5fa#npm:3.2.7", {\
         "packageLocation": "./.yarn/__virtual__/debug-virtual-d2345003b7/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/debug-npm-3.2.7-754e818c7a-10c0.zip/node_modules/debug/",\
         "packageDependencies": [\
@@ -1280,6 +3434,38 @@ const RAW_RUNTIME_STATE =
         "packagePeers": [\
           "@types/supports-color",\
           "supports-color"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7", {\
+        "packageLocation": "./.yarn/__virtual__/debug-virtual-cab48c25f8/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/debug-npm-4.3.7-385645adf9-10c0.zip/node_modules/debug/",\
+        "packageDependencies": [\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"],\
+          ["@types/supports-color", null],\
+          ["ms", "npm:2.1.3"],\
+          ["supports-color", null]\
+        ],\
+        "packagePeers": [\
+          "@types/supports-color",\
+          "supports-color"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["decamelize", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/decamelize-npm-1.2.0-c5a2fdc622-10c0.zip/node_modules/decamelize/",\
+        "packageDependencies": [\
+          ["decamelize", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["decode-uri-component", [\
+      ["npm:0.2.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/decode-uri-component-npm-0.2.2-e22e2aa917-10c0.zip/node_modules/decode-uri-component/",\
+        "packageDependencies": [\
+          ["decode-uri-component", "npm:0.2.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1344,11 +3530,56 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["defu", [\
+      ["npm:6.1.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/defu-npm-6.1.4-c791c7f2cc-10c0.zip/node_modules/defu/",\
+        "packageDependencies": [\
+          ["defu", "npm:6.1.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["destr", [\
+      ["npm:2.0.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/destr-npm-2.0.3-8221047ac7-10c0.zip/node_modules/destr/",\
+        "packageDependencies": [\
+          ["destr", "npm:2.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["detect-browser", [\
+      ["npm:5.3.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/detect-browser-npm-5.3.0-184a56bcc6-10c0.zip/node_modules/detect-browser/",\
+        "packageDependencies": [\
+          ["detect-browser", "npm:5.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["detect-libc", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/detect-libc-npm-1.0.3-c30ac344d4-10c0.zip/node_modules/detect-libc/",\
+        "packageDependencies": [\
+          ["detect-libc", "npm:1.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["didyoumean", [\
       ["npm:1.2.2", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/didyoumean-npm-1.2.2-fd568ec571-10c0.zip/node_modules/didyoumean/",\
         "packageDependencies": [\
           ["didyoumean", "npm:1.2.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["dijkstrajs", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/dijkstrajs-npm-1.0.3-d5b1d1b11a-10c0.zip/node_modules/dijkstrajs/",\
+        "packageDependencies": [\
+          ["dijkstrajs", "npm:1.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1390,11 +3621,54 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["duplexify", [\
+      ["npm:4.1.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/duplexify-npm-4.1.3-f0053971e9-10c0.zip/node_modules/duplexify/",\
+        "packageDependencies": [\
+          ["duplexify", "npm:4.1.3"],\
+          ["end-of-stream", "npm:1.4.4"],\
+          ["inherits", "npm:2.0.4"],\
+          ["readable-stream", "npm:3.6.2"],\
+          ["stream-shift", "npm:1.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["eastasianwidth", [\
       ["npm:0.2.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/eastasianwidth-npm-0.2.0-c37eb16bd1-10c0.zip/node_modules/eastasianwidth/",\
         "packageDependencies": [\
           ["eastasianwidth", "npm:0.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["elliptic", [\
+      ["npm:6.5.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/elliptic-npm-6.5.4-0ca8204a86-10c0.zip/node_modules/elliptic/",\
+        "packageDependencies": [\
+          ["elliptic", "npm:6.5.4"],\
+          ["bn.js", "npm:4.12.0"],\
+          ["brorand", "npm:1.1.0"],\
+          ["hash.js", "npm:1.1.7"],\
+          ["hmac-drbg", "npm:1.0.1"],\
+          ["inherits", "npm:2.0.4"],\
+          ["minimalistic-assert", "npm:1.0.1"],\
+          ["minimalistic-crypto-utils", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:6.5.7", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/elliptic-npm-6.5.7-df8e79dc1f-10c0.zip/node_modules/elliptic/",\
+        "packageDependencies": [\
+          ["elliptic", "npm:6.5.7"],\
+          ["bn.js", "npm:4.12.0"],\
+          ["brorand", "npm:1.1.0"],\
+          ["hash.js", "npm:1.1.7"],\
+          ["hmac-drbg", "npm:1.0.1"],\
+          ["inherits", "npm:2.0.4"],\
+          ["minimalistic-assert", "npm:1.0.1"],\
+          ["minimalistic-crypto-utils", "npm:1.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1415,12 +3689,31 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["encode-utf8", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/encode-utf8-npm-1.0.3-8f92a23782-10c0.zip/node_modules/encode-utf8/",\
+        "packageDependencies": [\
+          ["encode-utf8", "npm:1.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["encoding", [\
       ["npm:0.1.13", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/encoding-npm-0.1.13-82a1837d30-10c0.zip/node_modules/encoding/",\
         "packageDependencies": [\
           ["encoding", "npm:0.1.13"],\
           ["iconv-lite", "npm:0.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["end-of-stream", [\
+      ["npm:1.4.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/end-of-stream-npm-1.4.4-497fc6dee1-10c0.zip/node_modules/end-of-stream/",\
+        "packageDependencies": [\
+          ["end-of-stream", "npm:1.4.4"],\
+          ["once", "npm:1.4.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -1638,7 +3931,7 @@ const RAW_RUNTIME_STATE =
           ["ajv", "npm:6.12.6"],\
           ["chalk", "npm:4.1.2"],\
           ["cross-spawn", "npm:7.0.3"],\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"],\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"],\
           ["doctrine", "npm:3.0.0"],\
           ["escape-string-regexp", "npm:4.0.0"],\
           ["eslint-scope", "npm:7.2.2"],\
@@ -1733,7 +4026,7 @@ const RAW_RUNTIME_STATE =
           ["@types/eslint", null],\
           ["@types/eslint-plugin-import", null],\
           ["@types/eslint-plugin-import-x", null],\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"],\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"],\
           ["enhanced-resolve", "npm:5.17.1"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-module-utils", "virtual:dd3522a2d23f06c2d045f41b98eec389633c0cce0cad1a48aeeba10e38e298e0e0ad9441cecc32bcc975ed4493884f72d0276f0ea8763ae448df66a8100819d9#npm:2.11.0"],\
@@ -2038,6 +4331,72 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["ethers", [\
+      ["npm:5.7.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/ethers-npm-5.7.2-eba7d781ee-10c0.zip/node_modules/ethers/",\
+        "packageDependencies": [\
+          ["ethers", "npm:5.7.2"],\
+          ["@ethersproject/abi", "npm:5.7.0"],\
+          ["@ethersproject/abstract-provider", "npm:5.7.0"],\
+          ["@ethersproject/abstract-signer", "npm:5.7.0"],\
+          ["@ethersproject/address", "npm:5.7.0"],\
+          ["@ethersproject/base64", "npm:5.7.0"],\
+          ["@ethersproject/basex", "npm:5.7.0"],\
+          ["@ethersproject/bignumber", "npm:5.7.0"],\
+          ["@ethersproject/bytes", "npm:5.7.0"],\
+          ["@ethersproject/constants", "npm:5.7.0"],\
+          ["@ethersproject/contracts", "npm:5.7.0"],\
+          ["@ethersproject/hash", "npm:5.7.0"],\
+          ["@ethersproject/hdnode", "npm:5.7.0"],\
+          ["@ethersproject/json-wallets", "npm:5.7.0"],\
+          ["@ethersproject/keccak256", "npm:5.7.0"],\
+          ["@ethersproject/logger", "npm:5.7.0"],\
+          ["@ethersproject/networks", "npm:5.7.1"],\
+          ["@ethersproject/pbkdf2", "npm:5.7.0"],\
+          ["@ethersproject/properties", "npm:5.7.0"],\
+          ["@ethersproject/providers", "npm:5.7.2"],\
+          ["@ethersproject/random", "npm:5.7.0"],\
+          ["@ethersproject/rlp", "npm:5.7.0"],\
+          ["@ethersproject/sha2", "npm:5.7.0"],\
+          ["@ethersproject/signing-key", "npm:5.7.0"],\
+          ["@ethersproject/solidity", "npm:5.7.0"],\
+          ["@ethersproject/strings", "npm:5.7.0"],\
+          ["@ethersproject/transactions", "npm:5.7.0"],\
+          ["@ethersproject/units", "npm:5.7.0"],\
+          ["@ethersproject/wallet", "npm:5.7.0"],\
+          ["@ethersproject/web", "npm:5.7.1"],\
+          ["@ethersproject/wordlists", "npm:5.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["events", [\
+      ["npm:3.3.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/events-npm-3.3.0-c280bc7e48-10c0.zip/node_modules/events/",\
+        "packageDependencies": [\
+          ["events", "npm:3.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["execa", [\
+      ["npm:8.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/execa-npm-8.0.1-0211bd404c-10c0.zip/node_modules/execa/",\
+        "packageDependencies": [\
+          ["execa", "npm:8.0.1"],\
+          ["cross-spawn", "npm:7.0.3"],\
+          ["get-stream", "npm:8.0.1"],\
+          ["human-signals", "npm:5.0.0"],\
+          ["is-stream", "npm:3.0.0"],\
+          ["merge-stream", "npm:2.0.0"],\
+          ["npm-run-path", "npm:5.3.0"],\
+          ["onetime", "npm:6.0.0"],\
+          ["signal-exit", "npm:4.1.0"],\
+          ["strip-final-newline", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["exponential-backoff", [\
       ["npm:3.1.1", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/exponential-backoff-npm-3.1.1-04df458b30-10c0.zip/node_modules/exponential-backoff/",\
@@ -2088,6 +4447,24 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["fast-redact", [\
+      ["npm:3.5.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/fast-redact-npm-3.5.0-80acfe2b04-10c0.zip/node_modules/fast-redact/",\
+        "packageDependencies": [\
+          ["fast-redact", "npm:3.5.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["fast-uri", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/fast-uri-npm-3.0.1-20477a5d16-10c0.zip/node_modules/fast-uri/",\
+        "packageDependencies": [\
+          ["fast-uri", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["fastq", [\
       ["npm:1.17.1", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/fastq-npm-1.17.1-56d4554993-10c0.zip/node_modules/fastq/",\
@@ -2118,7 +4495,25 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["filter-obj", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/filter-obj-npm-1.1.0-84128fc26d-10c0.zip/node_modules/filter-obj/",\
+        "packageDependencies": [\
+          ["filter-obj", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["find-up", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/find-up-npm-4.1.0-c3ccf8d855-10c0.zip/node_modules/find-up/",\
+        "packageDependencies": [\
+          ["find-up", "npm:4.1.0"],\
+          ["locate-path", "npm:5.0.0"],\
+          ["path-exists", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:5.0.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/find-up-npm-5.0.0-e03e9b796d-10c0.zip/node_modules/find-up/",\
         "packageDependencies": [\
@@ -2239,6 +4634,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["get-caller-file", [\
+      ["npm:2.0.5", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/get-caller-file-npm-2.0.5-80e8a86305-10c0.zip/node_modules/get-caller-file/",\
+        "packageDependencies": [\
+          ["get-caller-file", "npm:2.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["get-intrinsic", [\
       ["npm:1.2.4", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/get-intrinsic-npm-1.2.4-1dad3427b2-10c0.zip/node_modules/get-intrinsic/",\
@@ -2249,6 +4653,24 @@ const RAW_RUNTIME_STATE =
           ["has-proto", "npm:1.0.3"],\
           ["has-symbols", "npm:1.0.3"],\
           ["hasown", "npm:2.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["get-port-please", [\
+      ["npm:3.1.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/get-port-please-npm-3.1.2-65001b6a13-10c0.zip/node_modules/get-port-please/",\
+        "packageDependencies": [\
+          ["get-port-please", "npm:3.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["get-stream", [\
+      ["npm:8.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/get-stream-npm-8.0.1-c921b4840e-10c0.zip/node_modules/get-stream/",\
+        "packageDependencies": [\
+          ["get-stream", "npm:8.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2397,6 +4819,25 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["h3", [\
+      ["npm:1.12.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/h3-npm-1.12.0-44ee042557-10c0.zip/node_modules/h3/",\
+        "packageDependencies": [\
+          ["h3", "npm:1.12.0"],\
+          ["cookie-es", "npm:1.2.2"],\
+          ["crossws", "virtual:44ee042557f7215712ca5660d7ec53fdff41c618f9e994bd67e4cde0ae3a144132138f1463980d98e731130c42d0132a376c5abd2df3de2fb91ddd543832c4b9#npm:0.2.4"],\
+          ["defu", "npm:6.1.4"],\
+          ["destr", "npm:2.0.3"],\
+          ["iron-webcrypto", "npm:1.2.1"],\
+          ["ohash", "npm:1.1.3"],\
+          ["radix3", "npm:1.1.2"],\
+          ["ufo", "npm:1.5.4"],\
+          ["uncrypto", "npm:0.1.3"],\
+          ["unenv", "npm:1.10.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["has-bigints", [\
       ["npm:1.0.2", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/has-bigints-npm-1.0.2-52732e614d-10c0.zip/node_modules/has-bigints/",\
@@ -2453,12 +4894,44 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["hash.js", [\
+      ["npm:1.1.7", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/hash.js-npm-1.1.7-f1ad187358-10c0.zip/node_modules/hash.js/",\
+        "packageDependencies": [\
+          ["hash.js", "npm:1.1.7"],\
+          ["inherits", "npm:2.0.4"],\
+          ["minimalistic-assert", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["hasown", [\
       ["npm:2.0.2", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/hasown-npm-2.0.2-80fe6c9901-10c0.zip/node_modules/hasown/",\
         "packageDependencies": [\
           ["hasown", "npm:2.0.2"],\
           ["function-bind", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["hey-listen", [\
+      ["npm:1.0.8", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/hey-listen-npm-1.0.8-adb7dae9da-10c0.zip/node_modules/hey-listen/",\
+        "packageDependencies": [\
+          ["hey-listen", "npm:1.0.8"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["hmac-drbg", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/hmac-drbg-npm-1.0.1-3499ad31cd-10c0.zip/node_modules/hmac-drbg/",\
+        "packageDependencies": [\
+          ["hmac-drbg", "npm:1.0.1"],\
+          ["hash.js", "npm:1.1.7"],\
+          ["minimalistic-assert", "npm:1.0.1"],\
+          ["minimalistic-crypto-utils", "npm:1.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2478,7 +4951,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["http-proxy-agent", "npm:7.0.2"],\
           ["agent-base", "npm:7.1.1"],\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"]\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["http-shutdown", [\
+      ["npm:1.2.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/http-shutdown-npm-1.2.2-e4fdf6986c-10c0.zip/node_modules/http-shutdown/",\
+        "packageDependencies": [\
+          ["http-shutdown", "npm:1.2.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2489,7 +4971,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["https-proxy-agent", "npm:7.0.5"],\
           ["agent-base", "npm:7.1.1"],\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"]\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["human-signals", [\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/human-signals-npm-5.0.0-ed25a9f58c-10c0.zip/node_modules/human-signals/",\
+        "packageDependencies": [\
+          ["human-signals", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2504,11 +4995,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["idb-keyval", [\
+      ["npm:6.2.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/idb-keyval-npm-6.2.1-05d362a952-10c0.zip/node_modules/idb-keyval/",\
+        "packageDependencies": [\
+          ["idb-keyval", "npm:6.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ignore", [\
       ["npm:5.3.2", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/ignore-npm-5.3.2-346d3ba017-10c0.zip/node_modules/ignore/",\
         "packageDependencies": [\
           ["ignore", "npm:5.3.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["immediate", [\
+      ["npm:3.0.6", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/immediate-npm-3.0.6-c27588a2d3-10c0.zip/node_modules/immediate/",\
+        "packageDependencies": [\
+          ["immediate", "npm:3.0.6"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2581,6 +5090,15 @@ const RAW_RUNTIME_STATE =
           ["ip-address", "npm:9.0.5"],\
           ["jsbn", "npm:1.1.0"],\
           ["sprintf-js", "npm:1.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["iron-webcrypto", [\
+      ["npm:1.2.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/iron-webcrypto-npm-1.2.1-12f47280d3-10c0.zip/node_modules/iron-webcrypto/",\
+        "packageDependencies": [\
+          ["iron-webcrypto", "npm:1.2.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2697,6 +5215,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["is-docker", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/is-docker-npm-3.0.0-1570e32177-10c0.zip/node_modules/is-docker/",\
+        "packageDependencies": [\
+          ["is-docker", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["is-extglob", [\
       ["npm:2.1.1", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/is-extglob-npm-2.1.1-0870ea68b5-10c0.zip/node_modules/is-extglob/",\
@@ -2741,6 +5268,16 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["is-glob", "npm:4.0.3"],\
           ["is-extglob", "npm:2.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["is-inside-container", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/is-inside-container-npm-1.0.0-f2c9e9bb96-10c0.zip/node_modules/is-inside-container/",\
+        "packageDependencies": [\
+          ["is-inside-container", "npm:1.0.0"],\
+          ["is-docker", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -2830,6 +5367,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["is-stream", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/is-stream-npm-3.0.0-a77ac9a62e-10c0.zip/node_modules/is-stream/",\
+        "packageDependencies": [\
+          ["is-stream", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["is-string", [\
       ["npm:1.0.7", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/is-string-npm-1.0.7-9f7066daed-10c0.zip/node_modules/is-string/",\
@@ -2890,7 +5436,34 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["is-wsl", [\
+      ["npm:3.1.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/is-wsl-npm-3.1.0-311c6d2265-10c0.zip/node_modules/is-wsl/",\
+        "packageDependencies": [\
+          ["is-wsl", "npm:3.1.0"],\
+          ["is-inside-container", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["is64bit", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/is64bit-npm-2.0.0-d5e7615348-10c0.zip/node_modules/is64bit/",\
+        "packageDependencies": [\
+          ["is64bit", "npm:2.0.0"],\
+          ["system-architecture", "npm:0.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["isarray", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/isarray-npm-1.0.0-db4f547720-10c0.zip/node_modules/isarray/",\
+        "packageDependencies": [\
+          ["isarray", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:2.0.5", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/isarray-npm-2.0.5-4ba522212d-10c0.zip/node_modules/isarray/",\
         "packageDependencies": [\
@@ -2963,6 +5536,8 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "./",\
         "packageDependencies": [\
           ["jobzer-ethonline", "workspace:."],\
+          ["@lit-protocol/constants", "npm:6.4.10"],\
+          ["@lit-protocol/lit-node-client", "npm:6.4.10"],\
           ["eslint", "npm:8.57.0"],\
           ["eslint-config-next", "virtual:df72f85826e28ff3fea4b4837375b6bc541283fc36a56cda0df17931b87a48778597d70efe42906abeba10ea58c23349851bde491dad2c8d80b53afd1ddb6918#npm:14.2.8"],\
           ["next", "virtual:df72f85826e28ff3fea4b4837375b6bc541283fc36a56cda0df17931b87a48778597d70efe42906abeba10ea58c23349851bde491dad2c8d80b53afd1ddb6918#npm:14.2.8"],\
@@ -2972,6 +5547,24 @@ const RAW_RUNTIME_STATE =
           ["tailwindcss", "npm:3.4.10"]\
         ],\
         "linkType": "SOFT"\
+      }]\
+    ]],\
+    ["jose", [\
+      ["npm:4.15.9", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/jose-npm-4.15.9-a725b711d7-10c0.zip/node_modules/jose/",\
+        "packageDependencies": [\
+          ["jose", "npm:4.15.9"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["js-sha3", [\
+      ["npm:0.8.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/js-sha3-npm-0.8.0-decf3ddcfa-10c0.zip/node_modules/js-sha3/",\
+        "packageDependencies": [\
+          ["js-sha3", "npm:0.8.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["js-tokens", [\
@@ -3018,6 +5611,13 @@ const RAW_RUNTIME_STATE =
           ["json-schema-traverse", "npm:0.4.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/json-schema-traverse-npm-1.0.0-fb3684f4f0-10c0.zip/node_modules/json-schema-traverse/",\
+        "packageDependencies": [\
+          ["json-schema-traverse", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["json-stable-stringify-without-jsonify", [\
@@ -3052,12 +5652,34 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["jszip", [\
+      ["npm:3.10.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/jszip-npm-3.10.1-2862546cfb-10c0.zip/node_modules/jszip/",\
+        "packageDependencies": [\
+          ["jszip", "npm:3.10.1"],\
+          ["lie", "npm:3.3.0"],\
+          ["pako", "npm:1.0.11"],\
+          ["readable-stream", "npm:2.3.8"],\
+          ["setimmediate", "npm:1.0.5"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["keyv", [\
       ["npm:4.5.4", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/keyv-npm-4.5.4-4c8e2cf7f7-10c0.zip/node_modules/keyv/",\
         "packageDependencies": [\
           ["keyv", "npm:4.5.4"],\
           ["json-buffer", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["keyvaluestorage-interface", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/keyvaluestorage-interface-npm-1.0.0-d6fc8e29c6-10c0.zip/node_modules/keyvaluestorage-interface/",\
+        "packageDependencies": [\
+          ["keyvaluestorage-interface", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3092,6 +5714,35 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["libsodium", [\
+      ["npm:0.7.15", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/libsodium-npm-0.7.15-f8c3e23fa5-10c0.zip/node_modules/libsodium/",\
+        "packageDependencies": [\
+          ["libsodium", "npm:0.7.15"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["libsodium-wrappers", [\
+      ["npm:0.7.15", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/libsodium-wrappers-npm-0.7.15-955f8418e2-10c0.zip/node_modules/libsodium-wrappers/",\
+        "packageDependencies": [\
+          ["libsodium-wrappers", "npm:0.7.15"],\
+          ["libsodium", "npm:0.7.15"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lie", [\
+      ["npm:3.3.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/lie-npm-3.3.0-35ddd11a4d-10c0.zip/node_modules/lie/",\
+        "packageDependencies": [\
+          ["lie", "npm:3.3.0"],\
+          ["immediate", "npm:3.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["lilconfig", [\
       ["npm:2.1.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/lilconfig-npm-2.1.0-a179261924-10c0.zip/node_modules/lilconfig/",\
@@ -3117,12 +5768,90 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["listhen", [\
+      ["npm:1.7.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/listhen-npm-1.7.2-e45819134d-10c0.zip/node_modules/listhen/",\
+        "packageDependencies": [\
+          ["listhen", "npm:1.7.2"],\
+          ["@parcel/watcher", "npm:2.4.1"],\
+          ["@parcel/watcher-wasm", "npm:2.4.1"],\
+          ["citty", "npm:0.1.6"],\
+          ["clipboardy", "npm:4.0.0"],\
+          ["consola", "npm:3.2.3"],\
+          ["crossws", "virtual:44ee042557f7215712ca5660d7ec53fdff41c618f9e994bd67e4cde0ae3a144132138f1463980d98e731130c42d0132a376c5abd2df3de2fb91ddd543832c4b9#npm:0.2.4"],\
+          ["defu", "npm:6.1.4"],\
+          ["get-port-please", "npm:3.1.2"],\
+          ["h3", "npm:1.12.0"],\
+          ["http-shutdown", "npm:1.2.2"],\
+          ["jiti", "npm:1.21.6"],\
+          ["mlly", "npm:1.7.1"],\
+          ["node-forge", "npm:1.3.1"],\
+          ["pathe", "npm:1.1.2"],\
+          ["std-env", "npm:3.7.0"],\
+          ["ufo", "npm:1.5.4"],\
+          ["untun", "npm:0.1.3"],\
+          ["uqr", "npm:0.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lit", [\
+      ["npm:2.7.6", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/lit-npm-2.7.6-053b00ec99-10c0.zip/node_modules/lit/",\
+        "packageDependencies": [\
+          ["lit", "npm:2.7.6"],\
+          ["@lit/reactive-element", "npm:1.6.3"],\
+          ["lit-element", "npm:3.3.3"],\
+          ["lit-html", "npm:2.8.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lit-element", [\
+      ["npm:3.3.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/lit-element-npm-3.3.3-2f9f9e38c0-10c0.zip/node_modules/lit-element/",\
+        "packageDependencies": [\
+          ["lit-element", "npm:3.3.3"],\
+          ["@lit-labs/ssr-dom-shim", "npm:1.2.1"],\
+          ["@lit/reactive-element", "npm:1.6.3"],\
+          ["lit-html", "npm:2.8.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lit-html", [\
+      ["npm:2.8.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/lit-html-npm-2.8.0-82f88d6ebf-10c0.zip/node_modules/lit-html/",\
+        "packageDependencies": [\
+          ["lit-html", "npm:2.8.0"],\
+          ["@types/trusted-types", "npm:2.0.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["locate-path", [\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/locate-path-npm-5.0.0-46580c43e4-10c0.zip/node_modules/locate-path/",\
+        "packageDependencies": [\
+          ["locate-path", "npm:5.0.0"],\
+          ["p-locate", "npm:4.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:6.0.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/locate-path-npm-6.0.0-06a1e4c528-10c0.zip/node_modules/locate-path/",\
         "packageDependencies": [\
           ["locate-path", "npm:6.0.0"],\
           ["p-locate", "npm:5.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["lodash.isequal", [\
+      ["npm:4.5.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/lodash.isequal-npm-4.5.0-f8b0f64d63-10c0.zip/node_modules/lodash.isequal/",\
+        "packageDependencies": [\
+          ["lodash.isequal", "npm:4.5.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3176,6 +5905,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["merge-stream", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/merge-stream-npm-2.0.0-2ac83efea5-10c0.zip/node_modules/merge-stream/",\
+        "packageDependencies": [\
+          ["merge-stream", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["merge2", [\
       ["npm:1.4.1", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/merge2-npm-1.4.1-a2507bd06c-10c0.zip/node_modules/merge2/",\
@@ -3192,6 +5930,42 @@ const RAW_RUNTIME_STATE =
           ["micromatch", "npm:4.0.8"],\
           ["braces", "npm:3.0.3"],\
           ["picomatch", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mime", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/mime-npm-3.0.0-8d911e4c06-10c0.zip/node_modules/mime/",\
+        "packageDependencies": [\
+          ["mime", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mimic-fn", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/mimic-fn-npm-4.0.0-feaeda79f7-10c0.zip/node_modules/mimic-fn/",\
+        "packageDependencies": [\
+          ["mimic-fn", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["minimalistic-assert", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/minimalistic-assert-npm-1.0.1-dc8bb23d29-10c0.zip/node_modules/minimalistic-assert/",\
+        "packageDependencies": [\
+          ["minimalistic-assert", "npm:1.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["minimalistic-crypto-utils", [\
+      ["npm:1.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/minimalistic-crypto-utils-npm-1.0.1-e66b10822e-10c0.zip/node_modules/minimalistic-crypto-utils/",\
+        "packageDependencies": [\
+          ["minimalistic-crypto-utils", "npm:1.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3328,11 +6102,71 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["mlly", [\
+      ["npm:1.7.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/mlly-npm-1.7.1-c00aa0548e-10c0.zip/node_modules/mlly/",\
+        "packageDependencies": [\
+          ["mlly", "npm:1.7.1"],\
+          ["acorn", "npm:8.12.1"],\
+          ["pathe", "npm:1.1.2"],\
+          ["pkg-types", "npm:1.2.0"],\
+          ["ufo", "npm:1.5.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["motion", [\
+      ["npm:10.16.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/motion-npm-10.16.2-fa1bf30ff0-10c0.zip/node_modules/motion/",\
+        "packageDependencies": [\
+          ["motion", "npm:10.16.2"],\
+          ["@motionone/animation", "npm:10.18.0"],\
+          ["@motionone/dom", "npm:10.18.0"],\
+          ["@motionone/svelte", "npm:10.16.4"],\
+          ["@motionone/types", "npm:10.17.1"],\
+          ["@motionone/utils", "npm:10.18.0"],\
+          ["@motionone/vue", "npm:10.16.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["mri", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/mri-npm-1.2.0-8ecee0357d-10c0.zip/node_modules/mri/",\
+        "packageDependencies": [\
+          ["mri", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ms", [\
       ["npm:2.1.3", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/ms-npm-2.1.3-81ff3cfac1-10c0.zip/node_modules/ms/",\
         "packageDependencies": [\
           ["ms", "npm:2.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["multiformats", [\
+      ["npm:11.0.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/multiformats-npm-11.0.2-fe26e09ee1-10c0.zip/node_modules/multiformats/",\
+        "packageDependencies": [\
+          ["multiformats", "npm:11.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:12.1.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/multiformats-npm-12.1.3-dbaa26037a-10c0.zip/node_modules/multiformats/",\
+        "packageDependencies": [\
+          ["multiformats", "npm:12.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:9.9.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/multiformats-npm-9.9.0-73ec9f8079-10c0.zip/node_modules/multiformats/",\
+        "packageDependencies": [\
+          ["multiformats", "npm:9.9.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3354,6 +6188,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/nanoid-npm-3.3.7-98824ba130-10c0.zip/node_modules/nanoid/",\
         "packageDependencies": [\
           ["nanoid", "npm:3.3.7"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["napi-wasm", [\
+      ["npm:1.1.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/napi-wasm-npm-1.1.3-b816fa158f-10c0.zip/node_modules/napi-wasm/",\
+        "packageDependencies": [\
+          ["napi-wasm", "npm:1.1.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3430,6 +6273,64 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["node-addon-api", [\
+      ["npm:7.1.1", {\
+        "packageLocation": "./.yarn/unplugged/node-addon-api-npm-7.1.1-bfb302df19/node_modules/node-addon-api/",\
+        "packageDependencies": [\
+          ["node-addon-api", "npm:7.1.1"],\
+          ["node-gyp", "npm:10.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["node-fetch", [\
+      ["npm:2.6.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/node-fetch-npm-2.6.1-46c670dbc1-10c0.zip/node_modules/node-fetch/",\
+        "packageDependencies": [\
+          ["node-fetch", "npm:2.6.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/node-fetch-npm-2.7.0-587d57004e-10c0.zip/node_modules/node-fetch/",\
+        "packageDependencies": [\
+          ["node-fetch", "npm:2.7.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:71c3c0570974c795b79987bb85d4a29514e196f75c7ca2bb56e80f88177e71cbbb73c9a0f02e781c6ccd33e5e8542eb2d0a05fb7aad876eea2872ec6993aa554#npm:2.7.0", {\
+        "packageLocation": "./.yarn/__virtual__/node-fetch-virtual-749a5a9668/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/node-fetch-npm-2.7.0-587d57004e-10c0.zip/node_modules/node-fetch/",\
+        "packageDependencies": [\
+          ["node-fetch", "virtual:71c3c0570974c795b79987bb85d4a29514e196f75c7ca2bb56e80f88177e71cbbb73c9a0f02e781c6ccd33e5e8542eb2d0a05fb7aad876eea2872ec6993aa554#npm:2.7.0"],\
+          ["@types/encoding", null],\
+          ["encoding", null],\
+          ["whatwg-url", "npm:5.0.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/encoding",\
+          "encoding"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["node-fetch-native", [\
+      ["npm:1.6.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/node-fetch-native-npm-1.6.4-074aca088e-10c0.zip/node_modules/node-fetch-native/",\
+        "packageDependencies": [\
+          ["node-fetch-native", "npm:1.6.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["node-forge", [\
+      ["npm:1.3.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/node-forge-npm-1.3.1-f31fd566cc-10c0.zip/node_modules/node-forge/",\
+        "packageDependencies": [\
+          ["node-forge", "npm:1.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["node-gyp", [\
       ["npm:10.2.0", {\
         "packageLocation": "./.yarn/unplugged/node-gyp-npm-10.2.0-cad1109948/node_modules/node-gyp/",\
@@ -3464,6 +6365,16 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/normalize-path-npm-3.0.0-658ba7d77f-10c0.zip/node_modules/normalize-path/",\
         "packageDependencies": [\
           ["normalize-path", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["npm-run-path", [\
+      ["npm:5.3.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/npm-run-path-npm-5.3.0-193efca236-10c0.zip/node_modules/npm-run-path/",\
+        "packageDependencies": [\
+          ["npm-run-path", "npm:5.3.0"],\
+          ["path-key", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3577,12 +6488,52 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["ofetch", [\
+      ["npm:1.3.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/ofetch-npm-1.3.4-e459f7b3ca-10c0.zip/node_modules/ofetch/",\
+        "packageDependencies": [\
+          ["ofetch", "npm:1.3.4"],\
+          ["destr", "npm:2.0.3"],\
+          ["node-fetch-native", "npm:1.6.4"],\
+          ["ufo", "npm:1.5.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["ohash", [\
+      ["npm:1.1.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/ohash-npm-1.1.3-3deaf8b6af-10c0.zip/node_modules/ohash/",\
+        "packageDependencies": [\
+          ["ohash", "npm:1.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["on-exit-leak-free", [\
+      ["npm:0.2.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/on-exit-leak-free-npm-0.2.0-58bc1e8da0-10c0.zip/node_modules/on-exit-leak-free/",\
+        "packageDependencies": [\
+          ["on-exit-leak-free", "npm:0.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["once", [\
       ["npm:1.4.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/once-npm-1.4.0-ccf03ef07a-10c0.zip/node_modules/once/",\
         "packageDependencies": [\
           ["once", "npm:1.4.0"],\
           ["wrappy", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["onetime", [\
+      ["npm:6.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/onetime-npm-6.0.0-4f3684e29a-10c0.zip/node_modules/onetime/",\
+        "packageDependencies": [\
+          ["onetime", "npm:6.0.0"],\
+          ["mimic-fn", "npm:4.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3603,6 +6554,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["p-limit", [\
+      ["npm:2.3.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/p-limit-npm-2.3.0-94a0310039-10c0.zip/node_modules/p-limit/",\
+        "packageDependencies": [\
+          ["p-limit", "npm:2.3.0"],\
+          ["p-try", "npm:2.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:3.1.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/p-limit-npm-3.1.0-05d2ede37f-10c0.zip/node_modules/p-limit/",\
         "packageDependencies": [\
@@ -3613,6 +6572,14 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["p-locate", [\
+      ["npm:4.1.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/p-locate-npm-4.1.0-eec6872537-10c0.zip/node_modules/p-locate/",\
+        "packageDependencies": [\
+          ["p-locate", "npm:4.1.0"],\
+          ["p-limit", "npm:2.3.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:5.0.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/p-locate-npm-5.0.0-92cc7c7a3e-10c0.zip/node_modules/p-locate/",\
         "packageDependencies": [\
@@ -3632,11 +6599,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["p-try", [\
+      ["npm:2.2.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/p-try-npm-2.2.0-e0390dbaf8-10c0.zip/node_modules/p-try/",\
+        "packageDependencies": [\
+          ["p-try", "npm:2.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["package-json-from-dist", [\
       ["npm:1.0.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/package-json-from-dist-npm-1.0.0-961f0fcb3b-10c0.zip/node_modules/package-json-from-dist/",\
         "packageDependencies": [\
           ["package-json-from-dist", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["pako", [\
+      ["npm:1.0.11", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/pako-npm-1.0.11-b8f1b69d3e-10c0.zip/node_modules/pako/",\
+        "packageDependencies": [\
+          ["pako", "npm:1.0.11"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3676,6 +6661,13 @@ const RAW_RUNTIME_STATE =
           ["path-key", "npm:3.1.1"]\
         ],\
         "linkType": "HARD"\
+      }],\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/path-key-npm-4.0.0-2bce99f089-10c0.zip/node_modules/path-key/",\
+        "packageDependencies": [\
+          ["path-key", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
       }]\
     ]],\
     ["path-parse", [\
@@ -3707,6 +6699,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["pathe", [\
+      ["npm:1.1.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/pathe-npm-1.1.2-b80d94db55-10c0.zip/node_modules/pathe/",\
+        "packageDependencies": [\
+          ["pathe", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["picocolors", [\
       ["npm:1.1.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/picocolors-npm-1.1.0-ea12a640bd-10c0.zip/node_modules/picocolors/",\
@@ -3734,11 +6735,72 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["pino", [\
+      ["npm:7.11.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/pino-npm-7.11.0-6ccf4cf5b6-10c0.zip/node_modules/pino/",\
+        "packageDependencies": [\
+          ["pino", "npm:7.11.0"],\
+          ["atomic-sleep", "npm:1.0.0"],\
+          ["fast-redact", "npm:3.5.0"],\
+          ["on-exit-leak-free", "npm:0.2.0"],\
+          ["pino-abstract-transport", "npm:0.5.0"],\
+          ["pino-std-serializers", "npm:4.0.0"],\
+          ["process-warning", "npm:1.0.0"],\
+          ["quick-format-unescaped", "npm:4.0.4"],\
+          ["real-require", "npm:0.1.0"],\
+          ["safe-stable-stringify", "npm:2.5.0"],\
+          ["sonic-boom", "npm:2.8.0"],\
+          ["thread-stream", "npm:0.15.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["pino-abstract-transport", [\
+      ["npm:0.5.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/pino-abstract-transport-npm-0.5.0-2cfa907a2a-10c0.zip/node_modules/pino-abstract-transport/",\
+        "packageDependencies": [\
+          ["pino-abstract-transport", "npm:0.5.0"],\
+          ["duplexify", "npm:4.1.3"],\
+          ["split2", "npm:4.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["pino-std-serializers", [\
+      ["npm:4.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/pino-std-serializers-npm-4.0.0-391192ed8b-10c0.zip/node_modules/pino-std-serializers/",\
+        "packageDependencies": [\
+          ["pino-std-serializers", "npm:4.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["pirates", [\
       ["npm:4.0.6", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/pirates-npm-4.0.6-a8ec571a43-10c0.zip/node_modules/pirates/",\
         "packageDependencies": [\
           ["pirates", "npm:4.0.6"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["pkg-types", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/pkg-types-npm-1.2.0-67bb29dbac-10c0.zip/node_modules/pkg-types/",\
+        "packageDependencies": [\
+          ["pkg-types", "npm:1.2.0"],\
+          ["confbox", "npm:0.1.7"],\
+          ["mlly", "npm:1.7.1"],\
+          ["pathe", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["pngjs", [\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/pngjs-npm-5.0.0-e8ba79f838-10c0.zip/node_modules/pngjs/",\
+        "packageDependencies": [\
+          ["pngjs", "npm:5.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -3911,6 +6973,33 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["process", [\
+      ["npm:0.11.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/process-npm-0.11.10-aeb3b641ae-10c0.zip/node_modules/process/",\
+        "packageDependencies": [\
+          ["process", "npm:0.11.10"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["process-nextick-args", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/process-nextick-args-npm-2.0.1-b8d7971609-10c0.zip/node_modules/process-nextick-args/",\
+        "packageDependencies": [\
+          ["process-nextick-args", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["process-warning", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/process-warning-npm-1.0.0-8b886c4a9d-10c0.zip/node_modules/process-warning/",\
+        "packageDependencies": [\
+          ["process-warning", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["promise-retry", [\
       ["npm:2.0.1", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/promise-retry-npm-2.0.1-871f0b01b7-10c0.zip/node_modules/promise-retry/",\
@@ -3934,6 +7023,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["proxy-compare", [\
+      ["npm:2.5.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/proxy-compare-npm-2.5.1-e867350620-10c0.zip/node_modules/proxy-compare/",\
+        "packageDependencies": [\
+          ["proxy-compare", "npm:2.5.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["punycode", [\
       ["npm:2.3.1", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/punycode-npm-2.3.1-97543c420d-10c0.zip/node_modules/punycode/",\
@@ -3943,11 +7041,55 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["qrcode", [\
+      ["npm:1.5.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/qrcode-npm-1.5.3-08da54d76e-10c0.zip/node_modules/qrcode/",\
+        "packageDependencies": [\
+          ["qrcode", "npm:1.5.3"],\
+          ["dijkstrajs", "npm:1.0.3"],\
+          ["encode-utf8", "npm:1.0.3"],\
+          ["pngjs", "npm:5.0.0"],\
+          ["yargs", "npm:15.4.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["query-string", [\
+      ["npm:7.1.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/query-string-npm-7.1.3-4e8804142a-10c0.zip/node_modules/query-string/",\
+        "packageDependencies": [\
+          ["query-string", "npm:7.1.3"],\
+          ["decode-uri-component", "npm:0.2.2"],\
+          ["filter-obj", "npm:1.1.0"],\
+          ["split-on-first", "npm:1.1.0"],\
+          ["strict-uri-encode", "npm:2.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["queue-microtask", [\
       ["npm:1.2.3", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/queue-microtask-npm-1.2.3-fcc98e4e2d-10c0.zip/node_modules/queue-microtask/",\
         "packageDependencies": [\
           ["queue-microtask", "npm:1.2.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["quick-format-unescaped", [\
+      ["npm:4.0.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/quick-format-unescaped-npm-4.0.4-7e22c9b7dc-10c0.zip/node_modules/quick-format-unescaped/",\
+        "packageDependencies": [\
+          ["quick-format-unescaped", "npm:4.0.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["radix3", [\
+      ["npm:1.1.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/radix3-npm-1.1.2-bf27d7ceee-10c0.zip/node_modules/radix3/",\
+        "packageDependencies": [\
+          ["radix3", "npm:1.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4005,12 +7147,56 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["readable-stream", [\
+      ["npm:2.3.8", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/readable-stream-npm-2.3.8-67a94c2cb1-10c0.zip/node_modules/readable-stream/",\
+        "packageDependencies": [\
+          ["readable-stream", "npm:2.3.8"],\
+          ["core-util-is", "npm:1.0.3"],\
+          ["inherits", "npm:2.0.4"],\
+          ["isarray", "npm:1.0.0"],\
+          ["process-nextick-args", "npm:2.0.1"],\
+          ["safe-buffer", "npm:5.1.2"],\
+          ["string_decoder", "npm:1.1.1"],\
+          ["util-deprecate", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:3.6.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/readable-stream-npm-3.6.2-d2a6069158-10c0.zip/node_modules/readable-stream/",\
+        "packageDependencies": [\
+          ["readable-stream", "npm:3.6.2"],\
+          ["inherits", "npm:2.0.4"],\
+          ["string_decoder", "npm:1.3.0"],\
+          ["util-deprecate", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["readdirp", [\
       ["npm:3.6.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/readdirp-npm-3.6.0-f950cc74ab-10c0.zip/node_modules/readdirp/",\
         "packageDependencies": [\
           ["readdirp", "npm:3.6.0"],\
           ["picomatch", "npm:2.3.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["readonly-date", [\
+      ["npm:1.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/readonly-date-npm-1.0.0-e93ba2496b-10c0.zip/node_modules/readonly-date/",\
+        "packageDependencies": [\
+          ["readonly-date", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["real-require", [\
+      ["npm:0.1.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/real-require-npm-0.1.0-354945c66f-10c0.zip/node_modules/real-require/",\
+        "packageDependencies": [\
+          ["real-require", "npm:0.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4040,6 +7226,33 @@ const RAW_RUNTIME_STATE =
           ["define-properties", "npm:1.2.1"],\
           ["es-errors", "npm:1.3.0"],\
           ["set-function-name", "npm:2.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["require-directory", [\
+      ["npm:2.1.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/require-directory-npm-2.1.1-8608aee50b-10c0.zip/node_modules/require-directory/",\
+        "packageDependencies": [\
+          ["require-directory", "npm:2.1.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["require-from-string", [\
+      ["npm:2.0.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/require-from-string-npm-2.0.2-8557e0db12-10c0.zip/node_modules/require-from-string/",\
+        "packageDependencies": [\
+          ["require-from-string", "npm:2.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["require-main-filename", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/require-main-filename-npm-2.0.0-03eef65c84-10c0.zip/node_modules/require-main-filename/",\
+        "packageDependencies": [\
+          ["require-main-filename", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4135,6 +7348,22 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["safe-buffer", [\
+      ["npm:5.1.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/safe-buffer-npm-5.1.2-c27fedf6c4-10c0.zip/node_modules/safe-buffer/",\
+        "packageDependencies": [\
+          ["safe-buffer", "npm:5.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:5.2.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/safe-buffer-npm-5.2.1-3481c8aa9b-10c0.zip/node_modules/safe-buffer/",\
+        "packageDependencies": [\
+          ["safe-buffer", "npm:5.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["safe-regex-test", [\
       ["npm:1.0.3", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/safe-regex-test-npm-1.0.3-97fe5cc608-10c0.zip/node_modules/safe-regex-test/",\
@@ -4143,6 +7372,15 @@ const RAW_RUNTIME_STATE =
           ["call-bind", "npm:1.0.7"],\
           ["es-errors", "npm:1.3.0"],\
           ["is-regex", "npm:1.1.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["safe-stable-stringify", [\
+      ["npm:2.5.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/safe-stable-stringify-npm-2.5.0-42ba8d9d22-10c0.zip/node_modules/safe-stable-stringify/",\
+        "packageDependencies": [\
+          ["safe-stable-stringify", "npm:2.5.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4166,6 +7404,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["scrypt-js", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/scrypt-js-npm-3.0.1-fd2d3fa606-10c0.zip/node_modules/scrypt-js/",\
+        "packageDependencies": [\
+          ["scrypt-js", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["semver", [\
       ["npm:6.3.1", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/semver-npm-6.3.1-bcba31fdbe-10c0.zip/node_modules/semver/",\
@@ -4178,6 +7425,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/semver-npm-7.6.3-57e82c14d5-10c0.zip/node_modules/semver/",\
         "packageDependencies": [\
           ["semver", "npm:7.6.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["set-blocking", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/set-blocking-npm-2.0.0-49e2cffa24-10c0.zip/node_modules/set-blocking/",\
+        "packageDependencies": [\
+          ["set-blocking", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4206,6 +7462,15 @@ const RAW_RUNTIME_STATE =
           ["es-errors", "npm:1.3.0"],\
           ["functions-have-names", "npm:1.2.3"],\
           ["has-property-descriptors", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["setimmediate", [\
+      ["npm:1.0.5", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/setimmediate-npm-1.0.5-54587459b6-10c0.zip/node_modules/setimmediate/",\
+        "packageDependencies": [\
+          ["setimmediate", "npm:1.0.5"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4251,6 +7516,57 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["siwe", [\
+      ["npm:2.3.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/siwe-npm-2.3.2-bbbdec33c5-10c0.zip/node_modules/siwe/",\
+        "packageDependencies": [\
+          ["siwe", "npm:2.3.2"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2", {\
+        "packageLocation": "./.yarn/__virtual__/siwe-virtual-5b6260573b/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/siwe-npm-2.3.2-bbbdec33c5-10c0.zip/node_modules/siwe/",\
+        "packageDependencies": [\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"],\
+          ["@spruceid/siwe-parser", "npm:2.1.2"],\
+          ["@stablelib/random", "npm:1.0.2"],\
+          ["@types/ethers", null],\
+          ["ethers", "npm:5.7.2"],\
+          ["uri-js", "npm:4.4.1"],\
+          ["valid-url", "npm:1.0.9"]\
+        ],\
+        "packagePeers": [\
+          "@types/ethers",\
+          "ethers"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["siwe-recap", [\
+      ["npm:0.0.2-alpha.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/siwe-recap-npm-0.0.2-alpha.0-d10b225ecf-10c0.zip/node_modules/siwe-recap/",\
+        "packageDependencies": [\
+          ["siwe-recap", "npm:0.0.2-alpha.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:7a870eda4df884bda0c3a957d95a1c34970db5bade48d566779dd15132677c57ad32ca8f05841477642fe6d00ef10bf577d36871c02d196b0783809a7b304139#npm:0.0.2-alpha.0", {\
+        "packageLocation": "./.yarn/__virtual__/siwe-recap-virtual-11a4f616c7/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/siwe-recap-npm-0.0.2-alpha.0-d10b225ecf-10c0.zip/node_modules/siwe-recap/",\
+        "packageDependencies": [\
+          ["siwe-recap", "virtual:7a870eda4df884bda0c3a957d95a1c34970db5bade48d566779dd15132677c57ad32ca8f05841477642fe6d00ef10bf577d36871c02d196b0783809a7b304139#npm:0.0.2-alpha.0"],\
+          ["@types/ethers", null],\
+          ["canonicalize", "npm:2.0.0"],\
+          ["ethers", "npm:5.7.2"],\
+          ["multiformats", "npm:11.0.2"],\
+          ["siwe", "virtual:13ddd98896fb12605fbcd9c23cfe19a3713b8968ca36359d7997af25d79cb324d47829bdaad7f03271f1a17de1fb3031ef435e05c52aa524cf25e6bb2956a4ae#npm:2.3.2"]\
+        ],\
+        "packagePeers": [\
+          "@types/ethers",\
+          "ethers"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["slash", [\
       ["npm:3.0.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/slash-npm-3.0.0-b87de2279a-10c0.zip/node_modules/slash/",\
@@ -4286,8 +7602,18 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["socks-proxy-agent", "npm:8.0.4"],\
           ["agent-base", "npm:7.1.1"],\
-          ["debug", "virtual:1ff4b5f90832ba0a9c93ba1223af226e44ba70c1126a3740d93562b97bc36544e896a5e95908196f7458713e6a6089a34bfc67362fc6df7fa093bd06c878be47#npm:4.3.7"],\
+          ["debug", "virtual:c9e1a4b59e37cb479517edede3bf2093b28c0ca1a9d0e517f3c345075bd1e468980b94b4957e389116607ee7155441dfd7d09e19a4229d5d09bcf06244401590#npm:4.3.7"],\
           ["socks", "npm:2.8.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["sonic-boom", [\
+      ["npm:2.8.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/sonic-boom-npm-2.8.0-87a358d51e-10c0.zip/node_modules/sonic-boom/",\
+        "packageDependencies": [\
+          ["sonic-boom", "npm:2.8.0"],\
+          ["atomic-sleep", "npm:1.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4297,6 +7623,24 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/source-map-js-npm-1.2.0-6e63f357e5-10c0.zip/node_modules/source-map-js/",\
         "packageDependencies": [\
           ["source-map-js", "npm:1.2.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["split-on-first", [\
+      ["npm:1.1.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/split-on-first-npm-1.1.0-e2f3ab5e4e-10c0.zip/node_modules/split-on-first/",\
+        "packageDependencies": [\
+          ["split-on-first", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["split2", [\
+      ["npm:4.2.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/split2-npm-4.2.0-16aa3883ba-10c0.zip/node_modules/split2/",\
+        "packageDependencies": [\
+          ["split2", "npm:4.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4320,6 +7664,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["std-env", [\
+      ["npm:3.7.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/std-env-npm-3.7.0-5261c3c3c3-10c0.zip/node_modules/std-env/",\
+        "packageDependencies": [\
+          ["std-env", "npm:3.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["stop-iteration-iterator", [\
       ["npm:1.0.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/stop-iteration-iterator-npm-1.0.0-ea451e1609-10c0.zip/node_modules/stop-iteration-iterator/",\
@@ -4330,11 +7683,29 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["stream-shift", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/stream-shift-npm-1.0.3-c1c29210c7-10c0.zip/node_modules/stream-shift/",\
+        "packageDependencies": [\
+          ["stream-shift", "npm:1.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["streamsearch", [\
       ["npm:1.1.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/streamsearch-npm-1.1.0-fc3ad6536d-10c0.zip/node_modules/streamsearch/",\
         "packageDependencies": [\
           ["streamsearch", "npm:1.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["strict-uri-encode", [\
+      ["npm:2.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/strict-uri-encode-npm-2.0.0-1ec3189376-10c0.zip/node_modules/strict-uri-encode/",\
+        "packageDependencies": [\
+          ["strict-uri-encode", "npm:2.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4441,6 +7812,24 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["string_decoder", [\
+      ["npm:1.1.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/string_decoder-npm-1.1.1-e46a6c1353-10c0.zip/node_modules/string_decoder/",\
+        "packageDependencies": [\
+          ["string_decoder", "npm:1.1.1"],\
+          ["safe-buffer", "npm:5.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:1.3.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/string_decoder-npm-1.3.0-2422117fd0-10c0.zip/node_modules/string_decoder/",\
+        "packageDependencies": [\
+          ["string_decoder", "npm:1.3.0"],\
+          ["safe-buffer", "npm:5.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["strip-ansi", [\
       ["npm:6.0.1", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/strip-ansi-npm-6.0.1-caddc7cb40-10c0.zip/node_modules/strip-ansi/",\
@@ -4464,6 +7853,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/strip-bom-npm-3.0.0-71e8f81ff9-10c0.zip/node_modules/strip-bom/",\
         "packageDependencies": [\
           ["strip-bom", "npm:3.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["strip-final-newline", [\
+      ["npm:3.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/strip-final-newline-npm-3.0.0-7972cbec8b-10c0.zip/node_modules/strip-final-newline/",\
+        "packageDependencies": [\
+          ["strip-final-newline", "npm:3.0.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4539,6 +7937,15 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/supports-preserve-symlinks-flag-npm-1.0.0-f17c4d0028-10c0.zip/node_modules/supports-preserve-symlinks-flag/",\
         "packageDependencies": [\
           ["supports-preserve-symlinks-flag", "npm:1.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["system-architecture", [\
+      ["npm:0.1.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/system-architecture-npm-0.1.0-d273b78665-10c0.zip/node_modules/system-architecture/",\
+        "packageDependencies": [\
+          ["system-architecture", "npm:0.1.0"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4627,12 +8034,31 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["thread-stream", [\
+      ["npm:0.15.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/thread-stream-npm-0.15.2-7f29c353ba-10c0.zip/node_modules/thread-stream/",\
+        "packageDependencies": [\
+          ["thread-stream", "npm:0.15.2"],\
+          ["real-require", "npm:0.1.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["to-regex-range", [\
       ["npm:5.0.1", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/to-regex-range-npm-5.0.1-f1e8263b00-10c0.zip/node_modules/to-regex-range/",\
         "packageDependencies": [\
           ["to-regex-range", "npm:5.0.1"],\
           ["is-number", "npm:7.0.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tr46", [\
+      ["npm:0.0.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/tr46-npm-0.0.3-de53018915-10c0.zip/node_modules/tr46/",\
+        "packageDependencies": [\
+          ["tr46", "npm:0.0.3"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4682,10 +8108,42 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["tslib", [\
+      ["npm:1.14.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/tslib-npm-1.14.1-102499115e-10c0.zip/node_modules/tslib/",\
+        "packageDependencies": [\
+          ["tslib", "npm:1.14.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:2.6.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/tslib-npm-2.6.0-4d336a6824-10c0.zip/node_modules/tslib/",\
+        "packageDependencies": [\
+          ["tslib", "npm:2.6.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:2.7.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/tslib-npm-2.7.0-21668f5c21-10c0.zip/node_modules/tslib/",\
         "packageDependencies": [\
           ["tslib", "npm:2.7.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tweetnacl", [\
+      ["npm:1.0.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/tweetnacl-npm-1.0.3-b7eef04660-10c0.zip/node_modules/tweetnacl/",\
+        "packageDependencies": [\
+          ["tweetnacl", "npm:1.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["tweetnacl-util", [\
+      ["npm:0.15.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/tweetnacl-util-npm-0.15.1-1a24bc512a-10c0.zip/node_modules/tweetnacl-util/",\
+        "packageDependencies": [\
+          ["tweetnacl-util", "npm:0.15.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4765,6 +8223,42 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["typeforce", [\
+      ["npm:1.18.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/typeforce-npm-1.18.0-372e34e2a2-10c0.zip/node_modules/typeforce/",\
+        "packageDependencies": [\
+          ["typeforce", "npm:1.18.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["ufo", [\
+      ["npm:1.5.4", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/ufo-npm-1.5.4-42a56e96d8-10c0.zip/node_modules/ufo/",\
+        "packageDependencies": [\
+          ["ufo", "npm:1.5.4"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["uint8arrays", [\
+      ["npm:3.1.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/uint8arrays-npm-3.1.1-42293ad777-10c0.zip/node_modules/uint8arrays/",\
+        "packageDependencies": [\
+          ["uint8arrays", "npm:3.1.1"],\
+          ["multiformats", "npm:9.9.0"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["npm:4.0.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/uint8arrays-npm-4.0.10-5d2d3e9ecf-10c0.zip/node_modules/uint8arrays/",\
+        "packageDependencies": [\
+          ["uint8arrays", "npm:4.0.10"],\
+          ["multiformats", "npm:12.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["unbox-primitive", [\
       ["npm:1.0.2", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/unbox-primitive-npm-1.0.2-cb56a05066-10c0.zip/node_modules/unbox-primitive/",\
@@ -4774,6 +8268,29 @@ const RAW_RUNTIME_STATE =
           ["has-bigints", "npm:1.0.2"],\
           ["has-symbols", "npm:1.0.3"],\
           ["which-boxed-primitive", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["uncrypto", [\
+      ["npm:0.1.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/uncrypto-npm-0.1.3-3f3076a8ff-10c0.zip/node_modules/uncrypto/",\
+        "packageDependencies": [\
+          ["uncrypto", "npm:0.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["unenv", [\
+      ["npm:1.10.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/unenv-npm-1.10.0-7c7fde17d5-10c0.zip/node_modules/unenv/",\
+        "packageDependencies": [\
+          ["unenv", "npm:1.10.0"],\
+          ["consola", "npm:3.2.3"],\
+          ["defu", "npm:6.1.4"],\
+          ["mime", "npm:3.0.0"],\
+          ["node-fetch-native", "npm:1.6.4"],\
+          ["pathe", "npm:1.1.2"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4798,6 +8315,107 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["unstorage", [\
+      ["npm:1.12.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/unstorage-npm-1.12.0-b63724a84f-10c0.zip/node_modules/unstorage/",\
+        "packageDependencies": [\
+          ["unstorage", "npm:1.12.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:d577bfd4c52f76eeef81e5bf913ab81f7fe5cabe37307be2d45ccf567d65cbe804b8e0c632fb331e64d77eaeb4907f8a6367799064b3f4eda195236aaada313c#npm:1.12.0", {\
+        "packageLocation": "./.yarn/__virtual__/unstorage-virtual-c4ff0184ca/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/unstorage-npm-1.12.0-b63724a84f-10c0.zip/node_modules/unstorage/",\
+        "packageDependencies": [\
+          ["unstorage", "virtual:d577bfd4c52f76eeef81e5bf913ab81f7fe5cabe37307be2d45ccf567d65cbe804b8e0c632fb331e64d77eaeb4907f8a6367799064b3f4eda195236aaada313c#npm:1.12.0"],\
+          ["@azure/app-configuration", null],\
+          ["@azure/cosmos", null],\
+          ["@azure/data-tables", null],\
+          ["@azure/identity", null],\
+          ["@azure/keyvault-secrets", null],\
+          ["@azure/storage-blob", null],\
+          ["@capacitor/preferences", null],\
+          ["@netlify/blobs", null],\
+          ["@planetscale/database", null],\
+          ["@types/azure__app-configuration", null],\
+          ["@types/azure__cosmos", null],\
+          ["@types/azure__data-tables", null],\
+          ["@types/azure__identity", null],\
+          ["@types/azure__keyvault-secrets", null],\
+          ["@types/azure__storage-blob", null],\
+          ["@types/capacitor__preferences", null],\
+          ["@types/idb-keyval", null],\
+          ["@types/ioredis", null],\
+          ["@types/netlify__blobs", null],\
+          ["@types/planetscale__database", null],\
+          ["@types/upstash__redis", null],\
+          ["@types/vercel__kv", null],\
+          ["@upstash/redis", null],\
+          ["@vercel/kv", null],\
+          ["anymatch", "npm:3.1.3"],\
+          ["chokidar", "npm:3.6.0"],\
+          ["destr", "npm:2.0.3"],\
+          ["h3", "npm:1.12.0"],\
+          ["idb-keyval", "npm:6.2.1"],\
+          ["ioredis", null],\
+          ["listhen", "npm:1.7.2"],\
+          ["lru-cache", "npm:10.4.3"],\
+          ["mri", "npm:1.2.0"],\
+          ["node-fetch-native", "npm:1.6.4"],\
+          ["ofetch", "npm:1.3.4"],\
+          ["ufo", "npm:1.5.4"]\
+        ],\
+        "packagePeers": [\
+          "@azure/app-configuration",\
+          "@azure/cosmos",\
+          "@azure/data-tables",\
+          "@azure/identity",\
+          "@azure/keyvault-secrets",\
+          "@azure/storage-blob",\
+          "@capacitor/preferences",\
+          "@netlify/blobs",\
+          "@planetscale/database",\
+          "@types/azure__app-configuration",\
+          "@types/azure__cosmos",\
+          "@types/azure__data-tables",\
+          "@types/azure__identity",\
+          "@types/azure__keyvault-secrets",\
+          "@types/azure__storage-blob",\
+          "@types/capacitor__preferences",\
+          "@types/idb-keyval",\
+          "@types/ioredis",\
+          "@types/netlify__blobs",\
+          "@types/planetscale__database",\
+          "@types/upstash__redis",\
+          "@types/vercel__kv",\
+          "@upstash/redis",\
+          "@vercel/kv",\
+          "idb-keyval",\
+          "ioredis"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["untun", [\
+      ["npm:0.1.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/untun-npm-0.1.3-1e654ab81a-10c0.zip/node_modules/untun/",\
+        "packageDependencies": [\
+          ["untun", "npm:0.1.3"],\
+          ["citty", "npm:0.1.6"],\
+          ["consola", "npm:3.2.3"],\
+          ["pathe", "npm:1.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["uqr", [\
+      ["npm:0.1.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/uqr-npm-0.1.2-43a93a52b7-10c0.zip/node_modules/uqr/",\
+        "packageDependencies": [\
+          ["uqr", "npm:0.1.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["uri-js", [\
       ["npm:4.4.1", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/uri-js-npm-4.4.1-66d11cbcaf-10c0.zip/node_modules/uri-js/",\
@@ -4808,11 +8426,110 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["use-sync-external-store", [\
+      ["npm:1.2.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/use-sync-external-store-npm-1.2.0-44f75d2564-10c0.zip/node_modules/use-sync-external-store/",\
+        "packageDependencies": [\
+          ["use-sync-external-store", "npm:1.2.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:a1368b841fe957d09fe13c5248366cdbc0bf2c0a4f31eae89e041b2d9bfc1420f586a7eec0b0f23cb3cb9d9beb5ceffd46a61b6d54ff905a43580004c003a4f8#npm:1.2.0", {\
+        "packageLocation": "./.yarn/__virtual__/use-sync-external-store-virtual-a09b9de162/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/use-sync-external-store-npm-1.2.0-44f75d2564-10c0.zip/node_modules/use-sync-external-store/",\
+        "packageDependencies": [\
+          ["use-sync-external-store", "virtual:a1368b841fe957d09fe13c5248366cdbc0bf2c0a4f31eae89e041b2d9bfc1420f586a7eec0b0f23cb3cb9d9beb5ceffd46a61b6d54ff905a43580004c003a4f8#npm:1.2.0"],\
+          ["@types/react", null],\
+          ["react", null]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["util", [\
+      ["npm:0.12.5", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/util-npm-0.12.5-3668276f26-10c0.zip/node_modules/util/",\
+        "packageDependencies": [\
+          ["util", "npm:0.12.5"],\
+          ["inherits", "npm:2.0.4"],\
+          ["is-arguments", "npm:1.1.1"],\
+          ["is-generator-function", "npm:1.0.10"],\
+          ["is-typed-array", "npm:1.1.13"],\
+          ["which-typed-array", "npm:1.1.15"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["util-deprecate", [\
       ["npm:1.0.2", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/util-deprecate-npm-1.0.2-e3fe1a219c-10c0.zip/node_modules/util-deprecate/",\
         "packageDependencies": [\
           ["util-deprecate", "npm:1.0.2"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["valid-url", [\
+      ["npm:1.0.9", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/valid-url-npm-1.0.9-945a70ad40-10c0.zip/node_modules/valid-url/",\
+        "packageDependencies": [\
+          ["valid-url", "npm:1.0.9"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["valtio", [\
+      ["npm:1.11.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/valtio-npm-1.11.0-145903dd1e-10c0.zip/node_modules/valtio/",\
+        "packageDependencies": [\
+          ["valtio", "npm:1.11.0"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:cfe206b2266f6b2aca1423b037e8e6ace5cf5964029c65ae80a3e953e877340c5b8ad02eac9578c1345fdd58deddf66cafcdc21c9631453da4040bb1fe0abfa7#npm:1.11.0", {\
+        "packageLocation": "./.yarn/__virtual__/valtio-virtual-a1368b841f/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/valtio-npm-1.11.0-145903dd1e-10c0.zip/node_modules/valtio/",\
+        "packageDependencies": [\
+          ["valtio", "virtual:cfe206b2266f6b2aca1423b037e8e6ace5cf5964029c65ae80a3e953e877340c5b8ad02eac9578c1345fdd58deddf66cafcdc21c9631453da4040bb1fe0abfa7#npm:1.11.0"],\
+          ["@types/react", null],\
+          ["proxy-compare", "npm:2.5.1"],\
+          ["react", null],\
+          ["use-sync-external-store", "virtual:a1368b841fe957d09fe13c5248366cdbc0bf2c0a4f31eae89e041b2d9bfc1420f586a7eec0b0f23cb3cb9d9beb5ceffd46a61b6d54ff905a43580004c003a4f8#npm:1.2.0"]\
+        ],\
+        "packagePeers": [\
+          "@types/react",\
+          "react"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["varuint-bitcoin", [\
+      ["npm:1.1.2", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/varuint-bitcoin-npm-1.1.2-83f928c112-10c0.zip/node_modules/varuint-bitcoin/",\
+        "packageDependencies": [\
+          ["varuint-bitcoin", "npm:1.1.2"],\
+          ["safe-buffer", "npm:5.2.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["webidl-conversions", [\
+      ["npm:3.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/webidl-conversions-npm-3.0.1-60310f6a2b-10c0.zip/node_modules/webidl-conversions/",\
+        "packageDependencies": [\
+          ["webidl-conversions", "npm:3.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["whatwg-url", [\
+      ["npm:5.0.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/whatwg-url-npm-5.0.0-374fb45e60-10c0.zip/node_modules/whatwg-url/",\
+        "packageDependencies": [\
+          ["whatwg-url", "npm:5.0.0"],\
+          ["tr46", "npm:0.0.3"],\
+          ["webidl-conversions", "npm:3.0.1"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -4883,6 +8600,15 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["which-module", [\
+      ["npm:2.0.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/which-module-npm-2.0.1-90f889f6f6-10c0.zip/node_modules/which-module/",\
+        "packageDependencies": [\
+          ["which-module", "npm:2.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["which-typed-array", [\
       ["npm:1.1.15", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/which-typed-array-npm-1.1.15-91410874a2-10c0.zip/node_modules/which-typed-array/",\
@@ -4907,6 +8633,16 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["wrap-ansi", [\
+      ["npm:6.2.0", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/wrap-ansi-npm-6.2.0-439a7246d8-10c0.zip/node_modules/wrap-ansi/",\
+        "packageDependencies": [\
+          ["wrap-ansi", "npm:6.2.0"],\
+          ["ansi-styles", "npm:4.3.0"],\
+          ["string-width", "npm:4.2.3"],\
+          ["strip-ansi", "npm:6.0.1"]\
+        ],\
+        "linkType": "HARD"\
+      }],\
       ["npm:7.0.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/wrap-ansi-npm-7.0.0-ad6e1a0554-10c0.zip/node_modules/wrap-ansi/",\
         "packageDependencies": [\
@@ -4937,6 +8673,65 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["ws", [\
+      ["npm:7.4.6", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/ws-npm-7.4.6-9c9a725604-10c0.zip/node_modules/ws/",\
+        "packageDependencies": [\
+          ["ws", "npm:7.4.6"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["npm:7.5.10", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/ws-npm-7.5.10-878ccb886b-10c0.zip/node_modules/ws/",\
+        "packageDependencies": [\
+          ["ws", "npm:7.5.10"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:88293ff29fa54efecc98d655f7a7551b282025b3465bc23ca5bb7a89a31c17930a7319e98225cf138bf4e6ccead5b30ae3c800738697b87af3441226d65f7ee3#npm:7.4.6", {\
+        "packageLocation": "./.yarn/__virtual__/ws-virtual-e1e964a4e5/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/ws-npm-7.4.6-9c9a725604-10c0.zip/node_modules/ws/",\
+        "packageDependencies": [\
+          ["ws", "virtual:88293ff29fa54efecc98d655f7a7551b282025b3465bc23ca5bb7a89a31c17930a7319e98225cf138bf4e6ccead5b30ae3c800738697b87af3441226d65f7ee3#npm:7.4.6"],\
+          ["@types/bufferutil", null],\
+          ["@types/utf-8-validate", null],\
+          ["bufferutil", null],\
+          ["utf-8-validate", null]\
+        ],\
+        "packagePeers": [\
+          "@types/bufferutil",\
+          "@types/utf-8-validate",\
+          "bufferutil",\
+          "utf-8-validate"\
+        ],\
+        "linkType": "HARD"\
+      }],\
+      ["virtual:9591f3240bc6ee5f06fb73f462032c5faa524d3423efb9ff612135a763526d66789a214b788e2b1faf3a3a602618547be0b8a4e91729fe1caf84f17ba3ff3535#npm:7.5.10", {\
+        "packageLocation": "./.yarn/__virtual__/ws-virtual-ed3187507d/6/C:/Users/kohav/AppData/Local/Yarn/Berry/cache/ws-npm-7.5.10-878ccb886b-10c0.zip/node_modules/ws/",\
+        "packageDependencies": [\
+          ["ws", "virtual:9591f3240bc6ee5f06fb73f462032c5faa524d3423efb9ff612135a763526d66789a214b788e2b1faf3a3a602618547be0b8a4e91729fe1caf84f17ba3ff3535#npm:7.5.10"],\
+          ["@types/bufferutil", null],\
+          ["@types/utf-8-validate", null],\
+          ["bufferutil", null],\
+          ["utf-8-validate", null]\
+        ],\
+        "packagePeers": [\
+          "@types/bufferutil",\
+          "@types/utf-8-validate",\
+          "bufferutil",\
+          "utf-8-validate"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["y18n", [\
+      ["npm:4.0.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/y18n-npm-4.0.3-ced95acdbc-10c0.zip/node_modules/y18n/",\
+        "packageDependencies": [\
+          ["y18n", "npm:4.0.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["yallist", [\
       ["npm:4.0.0", {\
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/yallist-npm-4.0.0-b493d9e907-10c0.zip/node_modules/yallist/",\
@@ -4951,6 +8746,37 @@ const RAW_RUNTIME_STATE =
         "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/yaml-npm-2.5.1-8b2871f510-10c0.zip/node_modules/yaml/",\
         "packageDependencies": [\
           ["yaml", "npm:2.5.1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["yargs", [\
+      ["npm:15.4.1", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/yargs-npm-15.4.1-ca1c444de1-10c0.zip/node_modules/yargs/",\
+        "packageDependencies": [\
+          ["yargs", "npm:15.4.1"],\
+          ["cliui", "npm:6.0.0"],\
+          ["decamelize", "npm:1.2.0"],\
+          ["find-up", "npm:4.1.0"],\
+          ["get-caller-file", "npm:2.0.5"],\
+          ["require-directory", "npm:2.1.1"],\
+          ["require-main-filename", "npm:2.0.0"],\
+          ["set-blocking", "npm:2.0.0"],\
+          ["string-width", "npm:4.2.3"],\
+          ["which-module", "npm:2.0.1"],\
+          ["y18n", "npm:4.0.3"],\
+          ["yargs-parser", "npm:18.1.3"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["yargs-parser", [\
+      ["npm:18.1.3", {\
+        "packageLocation": "../../../../../C:/Users/kohav/AppData/Local/Yarn/Berry/cache/yargs-parser-npm-18.1.3-0ba9c4f088-10c0.zip/node_modules/yargs-parser/",\
+        "packageDependencies": [\
+          ["yargs-parser", "npm:18.1.3"],\
+          ["camelcase", "npm:5.3.1"],\
+          ["decamelize", "npm:1.2.0"]\
         ],\
         "linkType": "HARD"\
       }]\
